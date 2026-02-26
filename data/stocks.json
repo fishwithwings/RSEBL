@@ -1,0 +1,16 @@
+{
+  "updated_at": "2025-01-01T00:00:00+00:00",
+  "bsi": null,
+  "stocks": [
+    {"symbol":"BNBL","name":"Bhutan National Bank Ltd.","pe_ratio":null,"price":30.82,"change":0.55,"change_pct":1.82,"volume":null,"value":null,"market_cap":15047000000},
+    {"symbol":"RICB","name":"Royal Insurance Corporation of Bhutan","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"GICB","name":"General Insurance Corporation of Bhutan","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"BIL","name":"Bhutan Insurance Ltd.","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"TBL","name":"Tashi Bank Ltd.","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"BFAL","name":"Bhutan Ferro Alloys Ltd.","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"BCCL","name":"Bhutan Carbide and Chemicals Ltd.","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"BTCL","name":"Bhutan Tourism Corporation Ltd.","pe_ratio":null,"price":525.00,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"BPCL","name":"Bhutan Post and Courier Ltd.","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null},
+    {"symbol":"KCL","name":"Kuensel Corporation Ltd.","pe_ratio":null,"price":null,"change":null,"change_pct":null,"volume":null,"value":null,"market_cap":null}
+  ]
+}
