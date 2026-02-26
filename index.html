@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RSEBL Market Tracker</title>
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
@@ -18,7 +19,7 @@
         </div>
       </div>
       <div class="header-stats">
-        <div class="stat-chip" id="bsi-chip">
+        <div class="stat-chip">
           <span class="stat-label">BSI</span>
           <span class="stat-value" id="bsi-value">—</span>
         </div>
@@ -43,7 +44,6 @@
     <nav class="tabs">
       <button class="tab active" data-tab="market">Market</button>
       <button class="tab" data-tab="news">News & Announcements</button>
-      <button class="tab" data-tab="portfolio">My Portfolio</button>
     </nav>
 
     <!-- MARKET TAB -->
@@ -73,6 +73,27 @@
           </tbody>
         </table>
       </div>
+
+      <!-- Price chart panel (shown when a stock row is clicked) -->
+      <div class="chart-panel hidden" id="chart-panel">
+        <div class="chart-header">
+          <div>
+            <span class="chart-symbol" id="chart-symbol"></span>
+            <span class="chart-name" id="chart-name"></span>
+          </div>
+          <div class="chart-range-btns">
+            <button class="range-btn active" data-months="6">6M</button>
+            <button class="range-btn" data-months="12">1Y</button>
+            <button class="range-btn" data-months="24">2Y</button>
+            <button class="range-btn" data-months="0">All</button>
+          </div>
+          <button class="chart-close" id="chart-close">✕</button>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="price-chart"></canvas>
+        </div>
+        <p class="chart-note" id="chart-note"></p>
+      </div>
     </div>
 
     <!-- NEWS TAB -->
@@ -82,65 +103,10 @@
       </div>
     </div>
 
-    <!-- PORTFOLIO TAB -->
-    <div class="tab-content" id="tab-portfolio">
-      <div class="portfolio-header">
-        <div class="portfolio-summary">
-          <div class="pf-stat">
-            <span class="pf-label">Invested</span>
-            <span class="pf-val" id="pf-invested">Nu. 0</span>
-          </div>
-          <div class="pf-stat">
-            <span class="pf-label">Current Value</span>
-            <span class="pf-val" id="pf-value">Nu. 0</span>
-          </div>
-          <div class="pf-stat">
-            <span class="pf-label">P&L</span>
-            <span class="pf-val" id="pf-pnl">Nu. 0</span>
-          </div>
-          <div class="pf-stat">
-            <span class="pf-label">Return</span>
-            <span class="pf-val" id="pf-return">0%</span>
-          </div>
-        </div>
-        <button class="btn-add" id="add-holding-btn">+ Add Holding</button>
-      </div>
-
-      <!-- Add holding form -->
-      <div class="add-form hidden" id="add-form">
-        <select id="form-symbol">
-          <option value="">Select security...</option>
-        </select>
-        <input type="number" id="form-shares" placeholder="Shares" min="1" />
-        <input type="number" id="form-buy-price" placeholder="Buy price (Nu.)" min="0" step="0.01" />
-        <button class="btn-save" id="save-holding-btn">Add</button>
-        <button class="btn-cancel" id="cancel-holding-btn">Cancel</button>
-      </div>
-
-      <table id="portfolio-table">
-        <thead>
-          <tr>
-            <th>Symbol</th>
-            <th>Company</th>
-            <th class="num">Shares</th>
-            <th class="num">Buy Price</th>
-            <th class="num">Current</th>
-            <th class="num">Value</th>
-            <th class="num">P&L</th>
-            <th class="num">Return</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody id="portfolio-body">
-          <tr><td colspan="9" class="loading">No holdings yet. Add one above.</td></tr>
-        </tbody>
-      </table>
-    </div>
-
   </main>
 
   <footer>
-    <p>Data scraped daily from <a href="https://rsebl.org.bt" target="_blank" rel="noopener">rsebl.org.bt</a>. Not financial advice.</p>
+    <p>Data scraped daily from <a href="https://rsebl.org.bt" target="_blank" rel="noopener">rsebl.org.bt</a>. Not financial advice. History available from April 2020.</p>
   </footer>
 
   <script src="app.js"></script>

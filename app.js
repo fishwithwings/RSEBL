@@ -1,32 +1,36 @@
 // ─── State ──────────────────────────────────────────────────────────────────
 let allStocks = [];
+let allHistory = {};
 let sortCol = "market_cap";
 let sortDir = "desc";
 let filterText = "";
 let filterSector = "";
-let portfolio = JSON.parse(localStorage.getItem("rsebl_portfolio") || "[]");
+let activeSymbol = null;
+let priceChart = null;
+let activeRangeMonths = 6;
 
-// ─── Sector mapping (symbol → sector) ───────────────────────────────────────
+// ─── Sector mapping ───────────────────────────────────────────────────────────
 const SECTORS = {
   BNBL: "Banking", TBL: "Banking", DPNBL: "Banking", BODB: "Banking",
   RICB: "Insurance", BIL: "Insurance", GICB: "Insurance",
-  BFAL: "Manufacturing", DWAL: "Manufacturing", BCCL: "Manufacturing",
+  BFAL: "Manufacturing", DWAL: "Manufacturing", BCCL: "Manufacturing", BFSL: "Manufacturing",
   BTCL: "Tourism", STCBL: "Tourism",
   BPCL: "Distribution", KCL: "Distribution",
   BBPL: "Publishing",
-  BSRM: "Trading",
+  BSRM: "Trading", JMCL: "Trading",
 };
 
 function getSector(symbol) {
   return SECTORS[symbol] || "Other";
 }
 
-// ─── Data loading ────────────────────────────────────────────────────────────
+// ─── Data loading ─────────────────────────────────────────────────────────────
 async function loadData() {
   try {
-    const [stocksRes, newsRes] = await Promise.all([
+    const [stocksRes, newsRes, historyRes] = await Promise.all([
       fetch("data/stocks.json"),
       fetch("data/news.json"),
+      fetch("data/history.json"),
     ]);
 
     if (stocksRes.ok) {
@@ -36,10 +40,13 @@ async function loadData() {
       renderLastUpdated(data.updated_at);
       renderSectorBar();
       renderStocksTable();
-      populatePortfolioSelect();
-      renderPortfolio();
     } else {
       showTableError("Could not load market data.");
+    }
+
+    if (historyRes.ok) {
+      const data = await historyRes.json();
+      allHistory = data.history || {};
     }
 
     if (newsRes.ok) {
@@ -54,10 +61,12 @@ async function loadData() {
   }
 }
 
-// ─── Header renders ──────────────────────────────────────────────────────────
+// ─── Header ───────────────────────────────────────────────────────────────────
 function renderBSI(bsi) {
   const el = document.getElementById("bsi-value");
-  el.textContent = bsi != null ? Number(bsi).toLocaleString("en-IN", { maximumFractionDigits: 2 }) : "—";
+  el.textContent = bsi != null
+    ? Number(bsi).toLocaleString("en-IN", { maximumFractionDigits: 2 })
+    : "—";
 }
 
 function renderLastUpdated(iso) {
@@ -67,7 +76,7 @@ function renderLastUpdated(iso) {
   el.textContent = d.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" });
 }
 
-// ─── Sector bar ──────────────────────────────────────────────────────────────
+// ─── Sector bar ───────────────────────────────────────────────────────────────
 function renderSectorBar() {
   const counts = {};
   for (const s of allStocks) {
@@ -88,16 +97,11 @@ function renderSectorBar() {
     `).join("");
 
   bar.querySelectorAll(".sector-pill").forEach(pill => {
-    pill.style.cursor = "pointer";
     pill.addEventListener("click", () => {
-      const sec = pill.dataset.sector;
-      filterSector = filterSector === sec ? "" : sec;
+      filterSector = filterSector === pill.dataset.sector ? "" : pill.dataset.sector;
       document.getElementById("sector-filter").value = filterSector;
       renderStocksTable();
-      // Highlight active pill
-      bar.querySelectorAll(".sector-pill").forEach(p =>
-        p.style.borderColor = p.dataset.sector === filterSector ? "var(--accent)" : "var(--border)"
-      );
+      syncPillHighlights();
     });
   });
 
@@ -108,7 +112,13 @@ function renderSectorBar() {
     sectors.map(s => `<option value="${s}">${s}</option>`).join("");
 }
 
-// ─── Stocks table ────────────────────────────────────────────────────────────
+function syncPillHighlights() {
+  document.querySelectorAll(".sector-pill").forEach(p => {
+    p.style.borderColor = p.dataset.sector === filterSector ? "var(--accent)" : "var(--border)";
+  });
+}
+
+// ─── Stocks table ─────────────────────────────────────────────────────────────
 function getFilteredStocks() {
   return allStocks.filter(s => {
     const q = filterText.toLowerCase();
@@ -123,7 +133,6 @@ function getFilteredStocks() {
 function renderStocksTable() {
   const stocks = getFilteredStocks();
 
-  // Sort
   stocks.sort((a, b) => {
     let va = a[sortCol], vb = b[sortCol];
     if (va == null) va = sortDir === "asc" ? Infinity : -Infinity;
@@ -139,7 +148,7 @@ function renderStocksTable() {
 
   const tbody = document.getElementById("stocks-body");
 
-  if (stocks.length === 0) {
+  if (!stocks.length) {
     tbody.innerHTML = `<tr><td colspan="7" class="loading">No results found.</td></tr>`;
     return;
   }
@@ -148,23 +157,34 @@ function renderStocksTable() {
     const chg = s.change_pct;
     const chgClass = chg == null ? "flat" : chg > 0 ? "up" : chg < 0 ? "down" : "flat";
     const chgText = chg == null ? "—" : (chg > 0 ? "+" : "") + chg.toFixed(2) + "%";
-    const price = s.price != null ? formatNum(s.price) : "—";
-    const pe = s.pe_ratio != null ? Number(s.pe_ratio).toFixed(2) : "—";
-    const vol = s.volume != null ? formatNum(s.volume, 0) : "—";
-    const cap = s.market_cap != null ? formatLarge(s.market_cap) : "—";
+    const hasHistory = !!allHistory[s.symbol];
+    const isActive = s.symbol === activeSymbol;
 
     return `
-      <tr>
-        <td class="symbol-cell">${s.symbol}</td>
+      <tr data-symbol="${s.symbol}" class="${isActive ? "active-row" : ""}" title="${hasHistory ? "Click to view price history" : ""}">
+        <td class="symbol-cell">${s.symbol}${hasHistory ? ' <span style="color:var(--text-muted);font-size:0.7rem">▼</span>' : ''}</td>
         <td class="name-cell" title="${s.name || ""}">${s.name || "—"}</td>
-        <td class="num">${price}</td>
+        <td class="num">${s.price != null ? formatNum(s.price) : "—"}</td>
         <td class="num ${chgClass}">${chgText}</td>
-        <td class="num">${pe}</td>
-        <td class="num">${vol}</td>
-        <td class="num">${cap}</td>
+        <td class="num">${s.pe_ratio != null ? Number(s.pe_ratio).toFixed(2) : "—"}</td>
+        <td class="num">${s.volume != null ? formatNum(s.volume, 0) : "—"}</td>
+        <td class="num">${s.market_cap != null ? formatLarge(s.market_cap) : "—"}</td>
       </tr>
     `;
   }).join("");
+
+  // Row click → show chart
+  tbody.querySelectorAll("tr[data-symbol]").forEach(row => {
+    row.addEventListener("click", () => {
+      const sym = row.dataset.symbol;
+      const stock = allStocks.find(s => s.symbol === sym);
+      if (sym === activeSymbol) {
+        closeChart();
+      } else {
+        openChart(sym, stock?.name || "");
+      }
+    });
+  });
 }
 
 function showTableError(msg) {
@@ -172,47 +192,169 @@ function showTableError(msg) {
     `<tr><td colspan="7" class="loading">${msg}</td></tr>`;
 }
 
-// Sort on header click
+// Sort headers
 document.querySelectorAll("th.sortable").forEach(th => {
   th.addEventListener("click", () => {
     const col = th.dataset.col;
-    if (sortCol === col) {
-      sortDir = sortDir === "asc" ? "desc" : "asc";
-    } else {
-      sortCol = col;
-      sortDir = col === "symbol" || col === "name" ? "asc" : "desc";
-    }
-    // Update header classes
-    document.querySelectorAll("th.sortable").forEach(h => {
-      h.classList.remove("sorted-asc", "sorted-desc");
-    });
+    sortDir = sortCol === col ? (sortDir === "asc" ? "desc" : "asc") : (col === "symbol" || col === "name" ? "asc" : "desc");
+    sortCol = col;
+    document.querySelectorAll("th.sortable").forEach(h => h.classList.remove("sorted-asc", "sorted-desc"));
     th.classList.add(sortDir === "asc" ? "sorted-asc" : "sorted-desc");
     renderStocksTable();
   });
 });
 
-// Search
 document.getElementById("search-input").addEventListener("input", e => {
   filterText = e.target.value;
   renderStocksTable();
 });
 
-// Sector dropdown
 document.getElementById("sector-filter").addEventListener("change", e => {
   filterSector = e.target.value;
   renderStocksTable();
-  // Sync pill highlights
-  document.querySelectorAll(".sector-pill").forEach(p =>
-    p.style.borderColor = p.dataset.sector === filterSector ? "var(--accent)" : "var(--border)"
-  );
+  syncPillHighlights();
 });
 
-// ─── News ────────────────────────────────────────────────────────────────────
+// ─── Chart ────────────────────────────────────────────────────────────────────
+function openChart(symbol, name) {
+  activeSymbol = symbol;
+  document.getElementById("chart-symbol").textContent = symbol;
+  document.getElementById("chart-name").textContent = name;
+
+  const panel = document.getElementById("chart-panel");
+  panel.classList.remove("hidden");
+  panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+  renderChart(symbol, activeRangeMonths);
+  renderStocksTable(); // re-render to highlight active row
+}
+
+function closeChart() {
+  activeSymbol = null;
+  document.getElementById("chart-panel").classList.add("hidden");
+  if (priceChart) { priceChart.destroy(); priceChart = null; }
+  renderStocksTable();
+}
+
+document.getElementById("chart-close").addEventListener("click", closeChart);
+
+document.querySelectorAll(".range-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".range-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeRangeMonths = parseInt(btn.dataset.months);
+    if (activeSymbol) renderChart(activeSymbol, activeRangeMonths);
+  });
+});
+
+function renderChart(symbol, months) {
+  const wrap = document.querySelector(".chart-wrap");
+  const note = document.getElementById("chart-note");
+
+  if (priceChart) { priceChart.destroy(); priceChart = null; }
+
+  const rawData = allHistory[symbol];
+  if (!rawData || !rawData.length) {
+    wrap.innerHTML = `<div class="no-history">No historical data available yet — run the scraper first.</div>`;
+    note.textContent = "";
+    return;
+  }
+
+  // Restore canvas if needed
+  if (!document.getElementById("price-chart")) {
+    wrap.innerHTML = `<canvas id="price-chart"></canvas>`;
+  }
+
+  // Filter by range
+  let data = rawData;
+  if (months > 0) {
+    const cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - months);
+    const cutoffStr = cutoff.toISOString().slice(0, 10);
+    data = rawData.filter(d => d.date >= cutoffStr);
+  }
+
+  if (!data.length) {
+    wrap.innerHTML = `<div class="no-history">No data in this range.</div>`;
+    note.textContent = "";
+    return;
+  }
+
+  // Restore canvas
+  if (!document.getElementById("price-chart")) {
+    wrap.innerHTML = `<canvas id="price-chart"></canvas>`;
+  }
+
+  const labels = data.map(d => d.date);
+  const prices = data.map(d => d.close);
+  const firstPrice = prices[0];
+  const lastPrice = prices[prices.length - 1];
+  const lineColor = lastPrice >= firstPrice ? "#3fb950" : "#f85149";
+  const fillColor = lastPrice >= firstPrice ? "rgba(63,185,80,0.08)" : "rgba(248,81,73,0.08)";
+
+  note.textContent = `${data[0].date} – ${data[data.length - 1].date}  ·  ${data.length} trading days`;
+
+  const ctx = document.getElementById("price-chart").getContext("2d");
+  priceChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [{
+        data: prices,
+        borderColor: lineColor,
+        backgroundColor: fillColor,
+        borderWidth: 1.5,
+        pointRadius: data.length > 200 ? 0 : 2,
+        pointHoverRadius: 4,
+        fill: true,
+        tension: 0.1,
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: "#161b22",
+          borderColor: "#30363d",
+          borderWidth: 1,
+          titleColor: "#8b949e",
+          bodyColor: "#e6edf3",
+          callbacks: {
+            title: items => items[0].label,
+            label: item => `Nu. ${formatNum(item.raw)}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: "#8b949e",
+            maxTicksLimit: 8,
+            maxRotation: 0,
+          },
+          grid: { color: "#21262d" },
+        },
+        y: {
+          ticks: {
+            color: "#8b949e",
+            callback: v => "Nu. " + formatNum(v),
+          },
+          grid: { color: "#21262d" },
+        },
+      },
+    },
+  });
+}
+
+// ─── News ─────────────────────────────────────────────────────────────────────
 function renderNews(newsItems) {
   const container = document.getElementById("news-list");
 
   if (!newsItems.length) {
-    container.innerHTML = `<p class="no-news">No news available yet. Data updates daily.</p>`;
+    container.innerHTML = `<p class="no-news">No news available yet. Data updates daily after market close.</p>`;
     return;
   }
 
@@ -232,133 +374,7 @@ function renderNews(newsItems) {
   }).join("");
 }
 
-// ─── Portfolio ───────────────────────────────────────────────────────────────
-function savePortfolio() {
-  localStorage.setItem("rsebl_portfolio", JSON.stringify(portfolio));
-}
-
-function populatePortfolioSelect() {
-  const sel = document.getElementById("form-symbol");
-  sel.innerHTML = `<option value="">Select security...</option>` +
-    [...allStocks]
-      .sort((a, b) => a.symbol.localeCompare(b.symbol))
-      .map(s => `<option value="${s.symbol}">${s.symbol} — ${s.name || ""}</option>`)
-      .join("");
-}
-
-function renderPortfolio() {
-  const tbody = document.getElementById("portfolio-body");
-
-  if (!portfolio.length) {
-    tbody.innerHTML = `<tr><td colspan="9" class="loading">No holdings yet. Add one above.</td></tr>`;
-    updatePortfolioSummary(0, 0);
-    return;
-  }
-
-  let totalInvested = 0;
-  let totalCurrent = 0;
-
-  const rows = portfolio.map((h, idx) => {
-    const stock = allStocks.find(s => s.symbol === h.symbol);
-    const currentPrice = stock?.price ?? null;
-    const invested = h.shares * h.buyPrice;
-    const current = currentPrice != null ? h.shares * currentPrice : null;
-    const pnl = current != null ? current - invested : null;
-    const ret = pnl != null ? (pnl / invested) * 100 : null;
-
-    totalInvested += invested;
-    if (current != null) totalCurrent += current;
-
-    const pnlClass = pnl == null ? "flat" : pnl > 0 ? "up" : pnl < 0 ? "down" : "flat";
-
-    return `
-      <tr>
-        <td class="symbol-cell">${h.symbol}</td>
-        <td class="name-cell">${stock?.name || ""}</td>
-        <td class="num">${formatNum(h.shares, 0)}</td>
-        <td class="num">${formatNum(h.buyPrice)}</td>
-        <td class="num">${currentPrice != null ? formatNum(currentPrice) : "—"}</td>
-        <td class="num">${current != null ? formatNum(current) : "—"}</td>
-        <td class="num ${pnlClass}">${pnl != null ? (pnl >= 0 ? "+" : "") + formatNum(pnl) : "—"}</td>
-        <td class="num ${pnlClass}">${ret != null ? (ret >= 0 ? "+" : "") + ret.toFixed(2) + "%" : "—"}</td>
-        <td><button class="btn-remove" data-idx="${idx}" title="Remove">×</button></td>
-      </tr>
-    `;
-  }).join("");
-
-  tbody.innerHTML = rows;
-  updatePortfolioSummary(totalInvested, totalCurrent);
-
-  tbody.querySelectorAll(".btn-remove").forEach(btn => {
-    btn.addEventListener("click", () => {
-      portfolio.splice(Number(btn.dataset.idx), 1);
-      savePortfolio();
-      renderPortfolio();
-    });
-  });
-}
-
-function updatePortfolioSummary(invested, current) {
-  const pnl = current - invested;
-  const ret = invested > 0 ? (pnl / invested) * 100 : 0;
-  const cls = pnl > 0 ? "up" : pnl < 0 ? "down" : "flat";
-
-  document.getElementById("pf-invested").textContent = "Nu. " + formatNum(invested);
-  document.getElementById("pf-value").textContent = "Nu. " + formatNum(current);
-
-  const pnlEl = document.getElementById("pf-pnl");
-  pnlEl.textContent = (pnl >= 0 ? "+" : "") + "Nu. " + formatNum(pnl);
-  pnlEl.className = `pf-val ${cls}`;
-
-  const retEl = document.getElementById("pf-return");
-  retEl.textContent = (ret >= 0 ? "+" : "") + ret.toFixed(2) + "%";
-  retEl.className = `pf-val ${cls}`;
-}
-
-// Add holding
-document.getElementById("add-holding-btn").addEventListener("click", () => {
-  document.getElementById("add-form").classList.toggle("hidden");
-});
-
-document.getElementById("cancel-holding-btn").addEventListener("click", () => {
-  document.getElementById("add-form").classList.add("hidden");
-  clearForm();
-});
-
-document.getElementById("save-holding-btn").addEventListener("click", () => {
-  const symbol = document.getElementById("form-symbol").value;
-  const shares = parseFloat(document.getElementById("form-shares").value);
-  const buyPrice = parseFloat(document.getElementById("form-buy-price").value);
-
-  if (!symbol || isNaN(shares) || shares <= 0 || isNaN(buyPrice) || buyPrice <= 0) {
-    alert("Please fill in all fields correctly.");
-    return;
-  }
-
-  portfolio.push({ symbol, shares, buyPrice });
-  savePortfolio();
-  renderPortfolio();
-  document.getElementById("add-form").classList.add("hidden");
-  clearForm();
-});
-
-function clearForm() {
-  document.getElementById("form-symbol").value = "";
-  document.getElementById("form-shares").value = "";
-  document.getElementById("form-buy-price").value = "";
-}
-
-// ─── Tabs ────────────────────────────────────────────────────────────────────
-document.querySelectorAll(".tab").forEach(tab => {
-  tab.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
-    document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
-    tab.classList.add("active");
-    document.getElementById(`tab-${tab.dataset.tab}`).classList.add("active");
-  });
-});
-
-// ─── Helpers ─────────────────────────────────────────────────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────────────
 function formatNum(n, decimals = 2) {
   if (n == null || isNaN(n)) return "—";
   return Number(n).toLocaleString("en-IN", {
@@ -381,10 +397,18 @@ function formatDate(iso) {
     return new Date(iso).toLocaleDateString("en-GB", {
       day: "2-digit", month: "short", year: "numeric",
     });
-  } catch {
-    return iso;
-  }
+  } catch { return iso; }
 }
 
-// ─── Init ────────────────────────────────────────────────────────────────────
+// ─── Tabs ─────────────────────────────────────────────────────────────────────
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById(`tab-${tab.dataset.tab}`).classList.add("active");
+  });
+});
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
 loadData();
