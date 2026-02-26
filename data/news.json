@@ -1,4 +1,105 @@
 {
-  "updated_at": "2025-01-01T00:00:00+00:00",
-  "news": []
+  "updated_at": "2026-02-26T15:17:38.387744+00:00",
+  "news": [
+    {
+      "title": "Market Watch",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Listed Scripts",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Our Services",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Debt Securities",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Brokers",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Unclaimed-list",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Profile",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Organogram",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Timeline",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Finances",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Equity",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Indices",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Downloads",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Unclaimed List",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Bhutan Stock Index",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Price Comparison",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Contact Us",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Literacy",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Privacy Policy",
+      "date": null,
+      "url": null
+    },
+    {
+      "title": "Staff Login",
+      "date": null,
+      "url": null
+    }
+  ]
 }
