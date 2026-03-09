@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-06T10:43:21.260791+00:00",
+  "updated_at": "2026-03-09T10:53:15.592422+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 61.01,
       "change": 0.05,
       "change_pct": 0.08,
-      "volume": 4852.0,
-      "value": 295981.7,
+      "volume": 783.0,
+      "value": 48559.05,
       "market_cap": "3.661B"
     },
     {
@@ -53,20 +53,20 @@
       "price": 29.97,
       "change": -0.85,
       "change_pct": -2.76,
-      "volume": 6047.0,
-      "value": 179070.28,
+      "volume": 1952.0,
+      "value": 57779.2,
       "market_cap": "14.632B"
     },
     {
       "symbol": "BPCL",
       "name": "BHUTAN POLYMERS COMPANY LTD.",
       "pe_ratio": "N/A",
-      "price": 42.5,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 10.0,
-      "value": 425.0,
-      "market_cap": "105.967M"
+      "price": 42.3,
+      "change": -0.2,
+      "change_pct": -0.47,
+      "volume": 118.0,
+      "value": 4991.4,
+      "market_cap": "105.468M"
     },
     {
       "symbol": "BTCL",
@@ -97,8 +97,8 @@
       "price": 9.77,
       "change": -0.01,
       "change_pct": -0.1,
-      "volume": 105.0,
-      "value": 1050.0,
+      "volume": 330.0,
+      "value": 3224.1,
       "market_cap": "149.211M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 42.0,
-      "value": 1228.92,
+      "volume": 1020.0,
+      "value": 29019.0,
       "market_cap": "4.634B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 79.9,
       "change": -0.13,
       "change_pct": -0.16,
-      "volume": 7.0,
-      "value": 553.07,
+      "volume": 101.0,
+      "value": 8080.0,
       "market_cap": "3.653B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 29.86,
       "change": 1.86,
       "change_pct": 6.64,
-      "volume": 30.0,
-      "value": 900.0,
+      "volume": 300.0,
+      "value": 8850.0,
       "market_cap": "3.285B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 3016.0,
-      "value": 84297.2,
+      "volume": 166.0,
+      "value": 4648.0,
       "market_cap": "1.676B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 77.5,
       "change": 1.83,
       "change_pct": 2.42,
-      "volume": 275.0,
-      "value": 20992.58,
+      "volume": 435.0,
+      "value": 33603.75,
       "market_cap": "12.400B"
     },
     {
@@ -207,8 +207,8 @@
       "price": 61.01,
       "change": 0.05,
       "change_pct": 0.08,
-      "volume": 4852.0,
-      "value": 295981.7,
+      "volume": 783.0,
+      "value": 48559.05,
       "market_cap": "3.661B"
     },
     {
@@ -218,20 +218,20 @@
       "price": 29.97,
       "change": -0.85,
       "change_pct": -2.76,
-      "volume": 6047.0,
-      "value": 179070.28,
+      "volume": 1952.0,
+      "value": 57779.2,
       "market_cap": "14.632B"
     },
     {
       "symbol": "BPCL",
       "name": "BHUTAN POLYMERS COMPANY LTD.",
       "pe_ratio": "N/A",
-      "price": 42.5,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 10.0,
-      "value": 425.0,
-      "market_cap": "105.967M"
+      "price": 42.3,
+      "change": -0.2,
+      "change_pct": -0.47,
+      "volume": 118.0,
+      "value": 4991.4,
+      "market_cap": "105.468M"
     },
     {
       "symbol": "BTCL",
@@ -262,8 +262,8 @@
       "price": 9.77,
       "change": -0.01,
       "change_pct": -0.1,
-      "volume": 105.0,
-      "value": 1050.0,
+      "volume": 330.0,
+      "value": 3224.1,
       "market_cap": "149.211M"
     },
     {
@@ -273,8 +273,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 42.0,
-      "value": 1228.92,
+      "volume": 1020.0,
+      "value": 29019.0,
       "market_cap": "4.634B"
     },
     {
@@ -284,8 +284,8 @@
       "price": 79.9,
       "change": -0.13,
       "change_pct": -0.16,
-      "volume": 7.0,
-      "value": 553.07,
+      "volume": 101.0,
+      "value": 8080.0,
       "market_cap": "3.653B"
     },
     {
@@ -295,8 +295,8 @@
       "price": 29.86,
       "change": 1.86,
       "change_pct": 6.64,
-      "volume": 30.0,
-      "value": 900.0,
+      "volume": 300.0,
+      "value": 8850.0,
       "market_cap": "3.285B"
     },
     {
@@ -317,8 +317,8 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 3016.0,
-      "value": 84297.2,
+      "volume": 166.0,
+      "value": 4648.0,
       "market_cap": "1.676B"
     },
     {
@@ -328,8 +328,8 @@
       "price": 77.5,
       "change": 1.83,
       "change_pct": 2.42,
-      "volume": 275.0,
-      "value": 20992.58,
+      "volume": 435.0,
+      "value": 33603.75,
       "market_cap": "12.400B"
     },
     {
@@ -339,8 +339,8 @@
       "price": 40.0,
       "change": 0.66,
       "change_pct": 1.68,
-      "volume": 65.0,
-      "value": 2570.36,
+      "volume": 500.0,
+      "value": 20000.0,
       "market_cap": "1.080B"
     },
     {
@@ -350,8 +350,8 @@
       "price": 30.51,
       "change": -0.09,
       "change_pct": -0.29,
-      "volume": 100.0,
-      "value": 3100.0,
+      "volume": 220.0,
+      "value": 6820.0,
       "market_cap": "2.659B"
     }
   ]
