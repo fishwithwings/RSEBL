@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-09T10:53:15.592422+00:00",
+  "updated_at": "2026-03-10T10:50:46.767974+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,30 +42,30 @@
       "price": 61.01,
       "change": 0.05,
       "change_pct": 0.08,
-      "volume": 783.0,
-      "value": 48559.05,
+      "volume": 1156.0,
+      "value": 71448.51,
       "market_cap": "3.661B"
     },
     {
       "symbol": "BNBL",
       "name": "BHUTAN NATIONAL BANK LTD.",
-      "pe_ratio": 2.75,
-      "price": 29.97,
-      "change": -0.85,
-      "change_pct": -2.76,
-      "volume": 1952.0,
-      "value": 57779.2,
-      "market_cap": "14.632B"
+      "pe_ratio": 2.76,
+      "price": 29.99,
+      "change": 0.02,
+      "change_pct": 0.07,
+      "volume": 38532.0,
+      "value": 1153904.97,
+      "market_cap": "14.642B"
     },
     {
       "symbol": "BPCL",
       "name": "BHUTAN POLYMERS COMPANY LTD.",
       "pe_ratio": "N/A",
       "price": 42.3,
-      "change": -0.2,
-      "change_pct": -0.47,
-      "volume": 118.0,
-      "value": 4991.4,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 158.0,
+      "value": 6683.4,
       "market_cap": "105.468M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 1020.0,
-      "value": 29019.0,
+      "volume": 17.0,
+      "value": 501.5,
       "market_cap": "4.634B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 79.9,
       "change": -0.13,
       "change_pct": -0.16,
-      "volume": 101.0,
-      "value": 8080.0,
+      "volume": 49.0,
+      "value": 3920.0,
       "market_cap": "3.653B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 29.86,
       "change": 1.86,
       "change_pct": 6.64,
-      "volume": 300.0,
-      "value": 8850.0,
+      "volume": 40.0,
+      "value": 1188.0,
       "market_cap": "3.285B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 166.0,
-      "value": 4648.0,
+      "volume": 100.0,
+      "value": 2800.0,
       "market_cap": "1.676B"
     },
     {
@@ -207,30 +207,30 @@
       "price": 61.01,
       "change": 0.05,
       "change_pct": 0.08,
-      "volume": 783.0,
-      "value": 48559.05,
+      "volume": 1156.0,
+      "value": 71448.51,
       "market_cap": "3.661B"
     },
     {
       "symbol": "BNBL",
       "name": "BHUTAN NATIONAL BANK LTD.",
-      "pe_ratio": 2.75,
-      "price": 29.97,
-      "change": -0.85,
-      "change_pct": -2.76,
-      "volume": 1952.0,
-      "value": 57779.2,
-      "market_cap": "14.632B"
+      "pe_ratio": 2.76,
+      "price": 29.99,
+      "change": 0.02,
+      "change_pct": 0.07,
+      "volume": 38532.0,
+      "value": 1153904.97,
+      "market_cap": "14.642B"
     },
     {
       "symbol": "BPCL",
       "name": "BHUTAN POLYMERS COMPANY LTD.",
       "pe_ratio": "N/A",
       "price": 42.3,
-      "change": -0.2,
-      "change_pct": -0.47,
-      "volume": 118.0,
-      "value": 4991.4,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 158.0,
+      "value": 6683.4,
       "market_cap": "105.468M"
     },
     {
@@ -273,8 +273,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 1020.0,
-      "value": 29019.0,
+      "volume": 17.0,
+      "value": 501.5,
       "market_cap": "4.634B"
     },
     {
@@ -284,8 +284,8 @@
       "price": 79.9,
       "change": -0.13,
       "change_pct": -0.16,
-      "volume": 101.0,
-      "value": 8080.0,
+      "volume": 49.0,
+      "value": 3920.0,
       "market_cap": "3.653B"
     },
     {
@@ -295,8 +295,8 @@
       "price": 29.86,
       "change": 1.86,
       "change_pct": 6.64,
-      "volume": 300.0,
-      "value": 8850.0,
+      "volume": 40.0,
+      "value": 1188.0,
       "market_cap": "3.285B"
     },
     {
@@ -317,8 +317,8 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 166.0,
-      "value": 4648.0,
+      "volume": 100.0,
+      "value": 2800.0,
       "market_cap": "1.676B"
     },
     {
@@ -350,8 +350,8 @@
       "price": 30.51,
       "change": -0.09,
       "change_pct": -0.29,
-      "volume": 220.0,
-      "value": 6820.0,
+      "volume": 500.0,
+      "value": 15250.0,
       "market_cap": "2.659B"
     }
   ]
