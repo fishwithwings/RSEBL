@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-12T10:50:03.958777+00:00",
+  "updated_at": "2026-03-13T10:46:26.988448+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 14.05,
       "change": -1.95,
       "change_pct": -12.19,
-      "volume": 78.0,
-      "value": 1170.0,
+      "volume": 250.0,
+      "value": 3875.0,
       "market_cap": "295.053M"
     },
     {
@@ -42,8 +42,8 @@
       "price": 61.01,
       "change": 0.05,
       "change_pct": 0.08,
-      "volume": 1156.0,
-      "value": 71448.51,
+      "volume": 607.0,
+      "value": 37369.96,
       "market_cap": "3.661B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 30.0,
       "change": 0.01,
       "change_pct": 0.03,
-      "volume": 26200.0,
-      "value": 784690.0,
+      "volume": 679.0,
+      "value": 20200.25,
       "market_cap": "14.647B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 25.0,
       "change_pct": 4.76,
-      "volume": 190.0,
-      "value": 104500.0,
+      "volume": 11.0,
+      "value": 6050.0,
       "market_cap": "1.152B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 17.0,
-      "value": 501.5,
+      "volume": 495.0,
+      "value": 14602.5,
       "market_cap": "4.634B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 29.86,
       "change": 1.86,
       "change_pct": 6.64,
-      "volume": 50.0,
-      "value": 1493.0,
+      "volume": 35.0,
+      "value": 1027.83,
       "market_cap": "3.285B"
     },
     {
@@ -152,20 +152,20 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 1500.0,
-      "value": 42000.0,
+      "volume": 15.0,
+      "value": 420.75,
       "market_cap": "1.676B"
     },
     {
       "symbol": "RICB",
       "name": "ROYAL INSURANCE CORPORATION OF BHUTAN LTD.",
-      "pe_ratio": 14.82,
-      "price": 77.5,
-      "change": 1.83,
-      "change_pct": 2.42,
-      "volume": 4714.0,
-      "value": 369601.17,
-      "market_cap": "12.400B"
+      "pe_ratio": 15.19,
+      "price": 79.45,
+      "change": 1.95,
+      "change_pct": 2.52,
+      "volume": 7662.0,
+      "value": 608745.9,
+      "market_cap": "12.712B"
     },
     {
       "symbol": "STCB",
@@ -185,8 +185,8 @@
       "price": 30.51,
       "change": -0.09,
       "change_pct": -0.29,
-      "volume": 2031.0,
-      "value": 62622.5,
+      "volume": 33.0,
+      "value": 1016.4,
       "market_cap": "2.659B"
     }
   ]
