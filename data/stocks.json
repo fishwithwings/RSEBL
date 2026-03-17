@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T11:00:59.508666+00:00",
+  "updated_at": "2026-03-17T10:57:36.126348+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -38,13 +38,13 @@
     {
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
-      "pe_ratio": 17.83,
-      "price": 60.79,
-      "change": -0.22,
-      "change_pct": -0.36,
-      "volume": 23426.0,
-      "value": 1419498.47,
-      "market_cap": "3.647B"
+      "pe_ratio": 17.88,
+      "price": 60.96,
+      "change": 0.17,
+      "change_pct": 0.28,
+      "volume": 3053.0,
+      "value": 187382.96,
+      "market_cap": "3.658B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 30.0,
       "change": 0.01,
       "change_pct": 0.03,
-      "volume": 3621.0,
-      "value": 108127.08,
+      "volume": 214.0,
+      "value": 6391.47,
       "market_cap": "14.647B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 495.0,
-      "value": 14602.5,
+      "volume": 1224.0,
+      "value": 35508.24,
       "market_cap": "4.634B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 891.0,
-      "value": 25839.0,
+      "volume": 200.0,
+      "value": 5700.0,
       "market_cap": "1.676B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 79.45,
       "change": 1.95,
       "change_pct": 2.52,
-      "volume": 396.0,
-      "value": 31284.0,
+      "volume": 20.0,
+      "value": 1580.0,
       "market_cap": "12.712B"
     },
     {
@@ -203,13 +203,13 @@
     {
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
-      "pe_ratio": 17.83,
-      "price": 60.79,
-      "change": -0.22,
-      "change_pct": -0.36,
-      "volume": 23426.0,
-      "value": 1419498.47,
-      "market_cap": "3.647B"
+      "pe_ratio": 17.88,
+      "price": 60.96,
+      "change": 0.17,
+      "change_pct": 0.28,
+      "volume": 3053.0,
+      "value": 187382.96,
+      "market_cap": "3.658B"
     },
     {
       "symbol": "BNBL",
@@ -218,8 +218,8 @@
       "price": 30.0,
       "change": 0.01,
       "change_pct": 0.03,
-      "volume": 3621.0,
-      "value": 108127.08,
+      "volume": 214.0,
+      "value": 6391.47,
       "market_cap": "14.647B"
     },
     {
@@ -273,8 +273,8 @@
       "price": 27.58,
       "change": -3.42,
       "change_pct": -11.03,
-      "volume": 495.0,
-      "value": 14602.5,
+      "volume": 1224.0,
+      "value": 35508.24,
       "market_cap": "4.634B"
     },
     {
@@ -317,8 +317,8 @@
       "price": 28.0,
       "change": 0.5,
       "change_pct": 1.82,
-      "volume": 891.0,
-      "value": 25839.0,
+      "volume": 200.0,
+      "value": 5700.0,
       "market_cap": "1.676B"
     },
     {
@@ -328,8 +328,8 @@
       "price": 79.45,
       "change": 1.95,
       "change_pct": 2.52,
-      "volume": 396.0,
-      "value": 31284.0,
+      "volume": 20.0,
+      "value": 1580.0,
       "market_cap": "12.712B"
     },
     {
@@ -339,8 +339,8 @@
       "price": 40.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1127.0,
-      "value": 45080.0,
+      "volume": 161.0,
+      "value": 6440.0,
       "market_cap": "1.080B"
     },
     {
