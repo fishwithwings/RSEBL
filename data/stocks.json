@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-30T11:09:34.433585+00:00",
+  "updated_at": "2026-03-31T11:01:23.521493+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,20 +42,20 @@
       "price": 62.71,
       "change": -0.27,
       "change_pct": -0.43,
-      "volume": 930.0,
-      "value": 58420.74,
+      "volume": 1207.0,
+      "value": 73578.72,
       "market_cap": "3.763B"
     },
     {
       "symbol": "BNBL",
       "name": "BHUTAN NATIONAL BANK LTD.",
-      "pe_ratio": 2.76,
-      "price": 30.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 6832.0,
-      "value": 202812.8,
-      "market_cap": "14.647B"
+      "pe_ratio": 2.67,
+      "price": 29.04,
+      "change": 0.04,
+      "change_pct": 0.14,
+      "volume": 38884.0,
+      "value": 1132104.24,
+      "market_cap": "14.178B"
     },
     {
       "symbol": "BPCL",
@@ -86,8 +86,8 @@
       "price": 77.68,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 10.0,
-      "value": 776.8,
+      "volume": 408.0,
+      "value": 30804.0,
       "market_cap": "2.116B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 36.0,
       "change": 4.28,
       "change_pct": 13.49,
-      "volume": 4698.0,
-      "value": 153791.64,
+      "volume": 600.0,
+      "value": 19515.0,
       "market_cap": "6.048B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 79.13,
       "change": -0.77,
       "change_pct": -0.96,
-      "volume": 50.0,
-      "value": 3950.0,
+      "volume": 101.0,
+      "value": 7977.99,
       "market_cap": "3.617B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1713.0,
-      "value": 51390.0,
+      "volume": 2100.0,
+      "value": 63000.0,
       "market_cap": "3.300B"
     },
     {
@@ -148,13 +148,13 @@
     {
       "symbol": "PCAL",
       "name": "PENDEN CEMENT AUTHORITY LTD.",
-      "pe_ratio": 58.0,
-      "price": 27.26,
-      "change": 0.26,
-      "change_pct": 0.96,
-      "volume": 6112.0,
-      "value": 166450.13,
-      "market_cap": "1.631B"
+      "pe_ratio": 55.87,
+      "price": 26.26,
+      "change": -1.0,
+      "change_pct": -3.67,
+      "volume": 111.0,
+      "value": 3109.11,
+      "market_cap": "1.571B"
     },
     {
       "symbol": "RICB",
@@ -163,8 +163,8 @@
       "price": 79.45,
       "change": 1.95,
       "change_pct": 2.52,
-      "volume": 468.0,
-      "value": 36972.0,
+      "volume": 75.0,
+      "value": 5949.38,
       "market_cap": "12.712B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 40.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 425.0,
-      "value": 17000.0,
+      "volume": 20.0,
+      "value": 820.6,
       "market_cap": "1.080B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 31.56,
       "change": -0.44,
       "change_pct": -1.38,
-      "volume": 37157.0,
-      "value": 1158493.32,
+      "volume": 690.0,
+      "value": 22093.8,
       "market_cap": "2.751B"
     }
   ]
