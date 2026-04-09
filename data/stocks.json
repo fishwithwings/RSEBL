@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T11:05:27.023768+00:00",
+  "updated_at": "2026-04-09T11:05:50.151362+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -17,12 +17,12 @@
       "symbol": "BCCL",
       "name": "BHUTAN CARBIDE & CHEMICALS LTD.",
       "pe_ratio": "N/A",
-      "price": 49.91,
-      "change": 6.51,
-      "change_pct": 15.0,
-      "volume": 151.0,
-      "value": 8667.4,
-      "market_cap": "499.100M"
+      "price": 61.71,
+      "change": -4.3,
+      "change_pct": -6.51,
+      "volume": 820.0,
+      "value": 47275.65,
+      "market_cap": "617.100M"
     },
     {
       "symbol": "BFAL",
@@ -38,13 +38,13 @@
     {
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
-      "pe_ratio": 17.01,
-      "price": 58.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 600.0,
-      "value": 34800.0,
-      "market_cap": "3.480B"
+      "pe_ratio": 16.73,
+      "price": 57.05,
+      "change": 0.01,
+      "change_pct": 0.02,
+      "volume": 3020.0,
+      "value": 172811.95,
+      "market_cap": "3.423B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 29.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 6368.0,
-      "value": 185204.59,
+      "volume": 1470.0,
+      "value": 42913.5,
       "market_cap": "14.158B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 36.0,
       "change": 4.28,
       "change_pct": 13.49,
-      "volume": 1130.0,
-      "value": 36273.0,
+      "volume": 1000.0,
+      "value": 31500.0,
       "market_cap": "6.048B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 79.13,
       "change": -0.77,
       "change_pct": -0.96,
-      "volume": 1721.0,
-      "value": 130793.13,
+      "volume": 900.0,
+      "value": 67500.0,
       "market_cap": "3.617B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 300.0,
-      "value": 8850.0,
+      "volume": 2020.0,
+      "value": 59590.0,
       "market_cap": "3.300B"
     },
     {
@@ -148,13 +148,13 @@
     {
       "symbol": "PCAL",
       "name": "PENDEN CEMENT AUTHORITY LTD.",
-      "pe_ratio": 55.47,
-      "price": 26.07,
-      "change": 0.05,
-      "change_pct": 0.19,
-      "volume": 2363.0,
-      "value": 60762.86,
-      "market_cap": "1.560B"
+      "pe_ratio": 54.26,
+      "price": 25.5,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 4000.0,
+      "value": 102000.0,
+      "market_cap": "1.526B"
     },
     {
       "symbol": "RICB",
@@ -163,8 +163,8 @@
       "price": 79.45,
       "change": 1.95,
       "change_pct": 2.52,
-      "volume": 20.0,
-      "value": 1560.0,
+      "volume": 125.0,
+      "value": 9791.67,
       "market_cap": "12.712B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 40.0,
       "change": -1.9,
       "change_pct": -4.53,
-      "volume": 500.0,
-      "value": 19875.0,
+      "volume": 240.0,
+      "value": 9394.29,
       "market_cap": "1.080B"
     },
     {
