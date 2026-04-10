@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T11:05:50.151362+00:00",
+  "updated_at": "2026-04-10T11:02:43.439089+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 57.05,
       "change": 0.01,
       "change_pct": 0.02,
-      "volume": 3020.0,
-      "value": 172811.95,
+      "volume": 1530.0,
+      "value": 88414.88,
       "market_cap": "3.423B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 29.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1470.0,
-      "value": 42913.5,
+      "volume": 1570.0,
+      "value": 46236.5,
       "market_cap": "14.158B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 36.0,
       "change": 4.28,
       "change_pct": 13.49,
-      "volume": 1000.0,
-      "value": 31500.0,
+      "volume": 3800.0,
+      "value": 117800.0,
       "market_cap": "6.048B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 79.13,
       "change": -0.77,
       "change_pct": -0.96,
-      "volume": 900.0,
-      "value": 67500.0,
+      "volume": 1700.0,
+      "value": 127513.6,
       "market_cap": "3.617B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2020.0,
-      "value": 59590.0,
+      "volume": 3000.0,
+      "value": 89400.0,
       "market_cap": "3.300B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 79.45,
       "change": 1.95,
       "change_pct": 2.52,
-      "volume": 125.0,
-      "value": 9791.67,
+      "volume": 39.0,
+      "value": 3042.0,
       "market_cap": "12.712B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 40.0,
       "change": -1.9,
       "change_pct": -4.53,
-      "volume": 240.0,
-      "value": 9394.29,
+      "volume": 50.0,
+      "value": 2000.0,
       "market_cap": "1.080B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 31.56,
       "change": -0.44,
       "change_pct": -1.38,
-      "volume": 1000.0,
-      "value": 32070.0,
+      "volume": 3181.0,
+      "value": 99291.73,
       "market_cap": "2.751B"
     }
   ]
