@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T11:21:52.466213+00:00",
+  "updated_at": "2026-04-14T11:22:00.806293+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 57.05,
       "change": 0.01,
       "change_pct": 0.02,
-      "volume": 1180.0,
-      "value": 67920.8,
+      "volume": 60.0,
+      "value": 3480.0,
       "market_cap": "3.423B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 29.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 12612.0,
-      "value": 366063.3,
+      "volume": 1600.0,
+      "value": 46933.33,
       "market_cap": "14.158B"
     },
     {
@@ -108,20 +108,20 @@
       "price": 36.0,
       "change": 4.28,
       "change_pct": 13.49,
-      "volume": 1530.0,
-      "value": 51270.3,
+      "volume": 851.0,
+      "value": 27891.53,
       "market_cap": "6.048B"
     },
     {
       "symbol": "DWAL",
       "name": "DRUK WANG ALLOYS LTD.",
-      "pe_ratio": 28.07,
-      "price": 81.41,
-      "change": 2.28,
-      "change_pct": 2.88,
-      "volume": 2747.0,
-      "value": 222853.81,
-      "market_cap": "3.722B"
+      "pe_ratio": 28.29,
+      "price": 82.03,
+      "change": -1.97,
+      "change_pct": -2.35,
+      "volume": 2697.0,
+      "value": 211918.7,
+      "market_cap": "3.750B"
     },
     {
       "symbol": "GICB",
@@ -148,13 +148,13 @@
     {
       "symbol": "PCAL",
       "name": "PENDEN CEMENT AUTHORITY LTD.",
-      "pe_ratio": 54.26,
-      "price": 25.5,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 120.0,
-      "value": 3090.0,
-      "market_cap": "1.526B"
+      "pe_ratio": 53.19,
+      "price": 25.0,
+      "change": -0.5,
+      "change_pct": -1.96,
+      "volume": 4372.0,
+      "value": 109636.31,
+      "market_cap": "1.496B"
     },
     {
       "symbol": "RICB",
@@ -174,8 +174,8 @@
       "price": 40.0,
       "change": -1.9,
       "change_pct": -4.53,
-      "volume": 50.0,
-      "value": 1975.0,
+      "volume": 225.0,
+      "value": 8832.38,
       "market_cap": "1.080B"
     },
     {
