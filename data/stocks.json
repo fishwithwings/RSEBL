@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T11:03:45.674580+00:00",
+  "updated_at": "2026-04-20T11:23:37.467294+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -10,7 +10,7 @@
       "change": -1.95,
       "change_pct": -12.19,
       "volume": 36.0,
-      "value": 504.72,
+      "value": 504.0,
       "market_cap": "295.053M"
     },
     {
@@ -42,8 +42,8 @@
       "price": 58.05,
       "change": 0.49,
       "change_pct": 0.85,
-      "volume": 218.0,
-      "value": 12862.0,
+      "volume": 1772.0,
+      "value": 103462.65,
       "market_cap": "3.483B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 28.99,
       "change": -0.01,
       "change_pct": -0.03,
-      "volume": 29921.0,
-      "value": 864188.88,
+      "volume": 2670.0,
+      "value": 77430.0,
       "market_cap": "14.153B"
     },
     {
@@ -64,8 +64,8 @@
       "price": 42.3,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 35.0,
-      "value": 1445.5,
+      "volume": 57.0,
+      "value": 2083.35,
       "market_cap": "105.468M"
     },
     {
@@ -75,8 +75,8 @@
       "price": 479.65,
       "change": -2.5,
       "change_pct": -0.52,
-      "volume": 5.0,
-      "value": 2550.0,
+      "volume": 78.0,
+      "value": 39780.0,
       "market_cap": "1.004B"
     },
     {
@@ -97,8 +97,8 @@
       "price": 9.77,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1.0,
-      "value": 10.5,
+      "volume": 176.0,
+      "value": 1584.0,
       "market_cap": "149.211M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 36.0,
       "change": 4.28,
       "change_pct": 13.49,
-      "volume": 10.0,
-      "value": 318.0,
+      "volume": 300.0,
+      "value": 9540.0,
       "market_cap": "6.048B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 82.3,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1405.0,
-      "value": 116615.0,
+      "volume": 761.0,
+      "value": 62630.3,
       "market_cap": "3.762B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 20.0,
-      "value": 596.0,
+      "volume": 1201.0,
+      "value": 35789.8,
       "market_cap": "3.300B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 78.99,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 347.0,
-      "value": 27202.72,
+      "volume": 437.0,
+      "value": 34233.12,
       "market_cap": "12.639B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 40.0,
       "change": -1.9,
       "change_pct": -4.53,
-      "volume": 600.0,
-      "value": 24000.0,
+      "volume": 928.0,
+      "value": 37584.0,
       "market_cap": "1.080B"
     },
     {
