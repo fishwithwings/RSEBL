@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T11:15:16.461300+00:00",
+  "updated_at": "2026-04-24T11:11:59.270410+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 58.51,
       "change": 0.46,
       "change_pct": 0.79,
-      "volume": 2573.0,
-      "value": 151415.9,
+      "volume": 689.0,
+      "value": 41124.11,
       "market_cap": "3.511B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 28.99,
       "change": -0.01,
       "change_pct": -0.03,
-      "volume": 750.0,
-      "value": 22232.14,
+      "volume": 3020.0,
+      "value": 89593.33,
       "market_cap": "14.153B"
     },
     {
@@ -71,24 +71,24 @@
     {
       "symbol": "BTCL",
       "name": "BHUTAN TOURISM CORPORATION LTD.",
-      "pe_ratio": 43.41,
-      "price": 479.65,
-      "change": -2.5,
-      "change_pct": -0.52,
-      "volume": 18.0,
-      "value": 9000.0,
-      "market_cap": "1.004B"
+      "pe_ratio": 46.15,
+      "price": 510.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 205.0,
+      "value": 104550.0,
+      "market_cap": "1.068B"
     },
     {
       "symbol": "DFAL",
       "name": "DRUK FERRO ALLOYS LIMITED",
-      "pe_ratio": 42.61,
-      "price": 75.0,
-      "change": -2.68,
-      "change_pct": -3.45,
-      "volume": 1220.0,
-      "value": 91500.0,
-      "market_cap": "2.043B"
+      "pe_ratio": 41.57,
+      "price": 73.16,
+      "change": -1.84,
+      "change_pct": -2.45,
+      "volume": 1338.0,
+      "value": 95834.25,
+      "market_cap": "1.993B"
     },
     {
       "symbol": "DPL",
@@ -108,20 +108,20 @@
       "price": 36.0,
       "change": 4.28,
       "change_pct": 13.49,
-      "volume": 93.0,
-      "value": 2929.5,
+      "volume": 5578.0,
+      "value": 173151.26,
       "market_cap": "6.048B"
     },
     {
       "symbol": "DWAL",
       "name": "DRUK WANG ALLOYS LTD.",
-      "pe_ratio": 28.38,
-      "price": 82.3,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 761.0,
-      "value": 62630.3,
-      "market_cap": "3.762B"
+      "pe_ratio": 28.07,
+      "price": 81.4,
+      "change": -0.9,
+      "change_pct": -1.09,
+      "volume": 2043.0,
+      "value": 168292.13,
+      "market_cap": "3.721B"
     },
     {
       "symbol": "GICB",
@@ -130,8 +130,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1067.0,
-      "value": 31668.56,
+      "volume": 2100.0,
+      "value": 62580.0,
       "market_cap": "3.300B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 25.0,
       "change": -0.5,
       "change_pct": -1.96,
-      "volume": 1130.0,
-      "value": 26611.5,
+      "volume": 45.0,
+      "value": 1134.0,
       "market_cap": "1.496B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 78.99,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 75.0,
-      "value": 5850.0,
+      "volume": 298.0,
+      "value": 23244.0,
       "market_cap": "12.639B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 38.5,
       "change": -1.5,
       "change_pct": -3.75,
-      "volume": 1505.0,
-      "value": 57942.5,
+      "volume": 60.0,
+      "value": 2340.0,
       "market_cap": "1.040B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 32.07,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 50.0,
-      "value": 1550.0,
+      "volume": 1452.0,
+      "value": 45026.52,
       "market_cap": "2.795B"
     }
   ]
