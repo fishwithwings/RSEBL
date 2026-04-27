@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-04-24T11:11:59.270410+00:00",
+  "updated_at": "2026-04-27T11:50:06.584490+00:00",
   "bsi": 3.0,
   "stocks": [
     {
       "symbol": "BBPL",
       "name": "BHUTAN BOARD PRODUCTS LTD.",
-      "pe_ratio": 40.14,
-      "price": 14.05,
-      "change": -1.95,
-      "change_pct": -12.19,
-      "volume": 200.0,
-      "value": 2900.0,
-      "market_cap": "295.053M"
+      "pe_ratio": 41.43,
+      "price": 14.5,
+      "change": 0.45,
+      "change_pct": 3.2,
+      "volume": 916.0,
+      "value": 13282.0,
+      "market_cap": "304.504M"
     },
     {
       "symbol": "BCCL",
@@ -53,8 +53,8 @@
       "price": 28.99,
       "change": -0.01,
       "change_pct": -0.03,
-      "volume": 3020.0,
-      "value": 89593.33,
+      "volume": 1301.0,
+      "value": 38704.75,
       "market_cap": "14.153B"
     },
     {
@@ -64,8 +64,8 @@
       "price": 36.57,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 917.0,
-      "value": 33530.11,
+      "volume": 15.0,
+      "value": 570.0,
       "market_cap": "91.181M"
     },
     {
@@ -75,8 +75,8 @@
       "price": 510.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 205.0,
-      "value": 104550.0,
+      "volume": 8.0,
+      "value": 4400.0,
       "market_cap": "1.068B"
     },
     {
@@ -86,20 +86,20 @@
       "price": 73.16,
       "change": -1.84,
       "change_pct": -2.45,
-      "volume": 1338.0,
-      "value": 95834.25,
+      "volume": 25.0,
+      "value": 1900.0,
       "market_cap": "1.993B"
     },
     {
       "symbol": "DPL",
       "name": "DUNGSAM POLYMERS LIMITED",
-      "pe_ratio": 81.42,
-      "price": 9.77,
+      "pe_ratio": 75.0,
+      "price": 9.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 176.0,
-      "value": 1584.0,
-      "market_cap": "149.211M"
+      "volume": 4483.0,
+      "value": 40347.0,
+      "market_cap": "137.451M"
     },
     {
       "symbol": "DPNB",
@@ -126,13 +126,13 @@
     {
       "symbol": "GICB",
       "name": "GIC BHUTAN REINSURANCE CO. LTD.",
-      "pe_ratio": 9.74,
-      "price": 30.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 2100.0,
-      "value": 62580.0,
-      "market_cap": "3.300B"
+      "pe_ratio": 9.03,
+      "price": 27.82,
+      "change": 0.82,
+      "change_pct": 3.04,
+      "volume": 109620.0,
+      "value": 2985839.97,
+      "market_cap": "3.060B"
     },
     {
       "symbol": "KCL",
@@ -152,8 +152,8 @@
       "price": 25.0,
       "change": -0.5,
       "change_pct": -1.96,
-      "volume": 45.0,
-      "value": 1134.0,
+      "volume": 955.0,
+      "value": 23875.0,
       "market_cap": "1.496B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 78.99,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 298.0,
-      "value": 23244.0,
+      "volume": 1093.0,
+      "value": 85979.02,
       "market_cap": "12.639B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 38.5,
       "change": -1.5,
       "change_pct": -3.75,
-      "volume": 60.0,
-      "value": 2340.0,
+      "volume": 392.0,
+      "value": 15288.0,
       "market_cap": "1.040B"
     },
     {
