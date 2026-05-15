@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T11:57:07.077189+00:00",
+  "updated_at": "2026-05-15T11:59:07.713405+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -7,10 +7,10 @@
       "name": "BHUTAN BOARD PRODUCTS LTD.",
       "pe_ratio": 40.0,
       "price": 14.0,
-      "change": -0.5,
-      "change_pct": -3.45,
-      "volume": 1652.0,
-      "value": 23128.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 878.0,
+      "value": 12293.46,
       "market_cap": "294.003M"
     },
     {
@@ -42,8 +42,8 @@
       "price": 56.01,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 822.0,
-      "value": 46915.65,
+      "volume": 2415.0,
+      "value": 141680.0,
       "market_cap": "3.361B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 28.99,
       "change": -0.01,
       "change_pct": -0.03,
-      "volume": 1863.0,
-      "value": 53980.43,
+      "volume": 7347.0,
+      "value": 212071.16,
       "market_cap": "14.153B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 69.55,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1189.0,
-      "value": 82694.95,
+      "volume": 100.0,
+      "value": 7565.0,
       "market_cap": "1.894B"
     },
     {
@@ -104,13 +104,13 @@
     {
       "symbol": "DPNB",
       "name": "DRUK PNB BANK LTD.",
-      "pe_ratio": 21.43,
-      "price": 36.0,
-      "change": 4.28,
-      "change_pct": 13.49,
-      "volume": 530.0,
-      "value": 16960.0,
-      "market_cap": "6.048B"
+      "pe_ratio": 19.67,
+      "price": 33.05,
+      "change": -0.4,
+      "change_pct": -1.2,
+      "volume": 24095.0,
+      "value": 784846.44,
+      "market_cap": "5.553B"
     },
     {
       "symbol": "DWAL",
@@ -119,8 +119,8 @@
       "price": 82.27,
       "change": 0.87,
       "change_pct": 1.07,
-      "volume": 679.0,
-      "value": 56357.0,
+      "volume": 595.0,
+      "value": 49980.0,
       "market_cap": "3.761B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 27.82,
       "change": 0.82,
       "change_pct": 3.04,
-      "volume": 104.0,
-      "value": 2870.4,
+      "volume": 3795.0,
+      "value": 105501.0,
       "market_cap": "3.060B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 24.26,
       "change": -0.19,
       "change_pct": -0.78,
-      "volume": 77.0,
-      "value": 1925.0,
+      "volume": 32.0,
+      "value": 810.67,
       "market_cap": "1.452B"
     },
     {
@@ -163,20 +163,20 @@
       "price": 78.99,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 410.0,
-      "value": 30750.0,
+      "volume": 3597.0,
+      "value": 269775.0,
       "market_cap": "12.639B"
     },
     {
       "symbol": "STCB",
       "name": "STATE TRADING CORPORATION OF BHUTAN LTD.",
-      "pe_ratio": 256.67,
-      "price": 38.5,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 1500.0,
-      "value": 57750.0,
-      "market_cap": "1.040B"
+      "pe_ratio": 273.07,
+      "price": 40.96,
+      "change": -0.04,
+      "change_pct": -0.1,
+      "volume": 1245.0,
+      "value": 50215.0,
+      "market_cap": "1.106B"
     },
     {
       "symbol": "TBL",
@@ -185,8 +185,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 6983.0,
-      "value": 209490.0,
+      "volume": 171.0,
+      "value": 5172.75,
       "market_cap": "2.615B"
     }
   ]
