@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T13:52:19.502351+00:00",
+  "updated_at": "2026-05-19T12:45:21.115009+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 56.01,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 122.0,
-      "value": 6984.5,
+      "volume": 1454.0,
+      "value": 82875.58,
       "market_cap": "3.361B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 510.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 5.0,
-      "value": 2712.5,
+      "volume": 10.0,
+      "value": 5105.0,
       "market_cap": "1.068B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 33.05,
       "change": -0.4,
       "change_pct": -1.2,
-      "volume": 2948.0,
-      "value": 91756.5,
+      "volume": 2154.0,
+      "value": 70015.77,
       "market_cap": "5.553B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 27.82,
       "change": 0.82,
       "change_pct": 3.04,
-      "volume": 526.0,
-      "value": 14728.0,
+      "volume": 35.0,
+      "value": 980.0,
       "market_cap": "3.060B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 24.26,
       "change": -0.19,
       "change_pct": -0.78,
-      "volume": 32.0,
-      "value": 810.67,
+      "volume": 250.0,
+      "value": 6250.0,
       "market_cap": "1.452B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 78.99,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 6087.0,
-      "value": 470359.09,
+      "volume": 5010.0,
+      "value": 378605.7,
       "market_cap": "12.639B"
     },
     {
@@ -174,20 +174,20 @@
       "price": 40.96,
       "change": -0.04,
       "change_pct": -0.1,
-      "volume": 1245.0,
-      "value": 50215.0,
+      "volume": 10.0,
+      "value": 409.6,
       "market_cap": "1.106B"
     },
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
-      "pe_ratio": 15.71,
-      "price": 30.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 171.0,
-      "value": 5172.75,
-      "market_cap": "2.615B"
+      "pe_ratio": 15.85,
+      "price": 30.28,
+      "change": 0.03,
+      "change_pct": 0.1,
+      "volume": 17241.0,
+      "value": 531942.31,
+      "market_cap": "2.639B"
     }
   ]
 }
