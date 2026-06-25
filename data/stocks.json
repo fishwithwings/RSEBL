@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T12:22:46.013480+00:00",
+  "updated_at": "2026-06-25T12:26:34.393054+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -16,13 +16,13 @@
     {
       "symbol": "BCCL",
       "name": "BHUTAN CARBIDE & CHEMICALS LTD.",
-      "pe_ratio": 153.59,
-      "price": 124.41,
-      "change": 0.57,
-      "change_pct": 0.46,
-      "volume": 2720.0,
-      "value": 363732.0,
-      "market_cap": "1.244B"
+      "pe_ratio": 162.48,
+      "price": 131.61,
+      "change": 7.2,
+      "change_pct": 5.79,
+      "volume": 434.0,
+      "value": 56470.63,
+      "market_cap": "1.316B"
     },
     {
       "symbol": "BFAL",
@@ -53,8 +53,8 @@
       "price": 28.06,
       "change": -0.93,
       "change_pct": -3.21,
-      "volume": 1230.0,
-      "value": 33522.42,
+      "volume": 606.0,
+      "value": 16944.97,
       "market_cap": "13.699B"
     },
     {
@@ -75,20 +75,20 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2.0,
-      "value": 1120.0,
+      "volume": 65.0,
+      "value": 34125.0,
       "market_cap": "1.152B"
     },
     {
       "symbol": "DFAL",
       "name": "DRUK FERRO ALLOYS LIMITED",
-      "pe_ratio": 71.04,
-      "price": 68.2,
-      "change": -1.12,
-      "change_pct": -1.62,
-      "volume": 100.0,
-      "value": 7100.0,
-      "market_cap": "1.858B"
+      "pe_ratio": 65.33,
+      "price": 62.72,
+      "change": -5.48,
+      "change_pct": -8.04,
+      "volume": 1280.0,
+      "value": 81920.0,
+      "market_cap": "1.708B"
     },
     {
       "symbol": "DPL",
@@ -97,8 +97,8 @@
       "price": 10.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 532.0,
-      "value": 5506.2,
+      "volume": 472.0,
+      "value": 4842.72,
       "market_cap": "166.469M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.34,
       "change": -0.05,
       "change_pct": -0.21,
-      "volume": 3132.0,
-      "value": 77718.34,
+      "volume": 798.0,
+      "value": 19558.98,
       "market_cap": "4.771B"
     },
     {
@@ -119,20 +119,20 @@
       "price": 79.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 100.0,
-      "value": 9085.0,
+      "volume": 116.0,
+      "value": 9164.0,
       "market_cap": "3.611B"
     },
     {
       "symbol": "GICB",
       "name": "GIC BHUTAN REINSURANCE CO. LTD.",
-      "pe_ratio": 8.48,
-      "price": 28.48,
+      "pe_ratio": 8.04,
+      "price": 27.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 537.0,
-      "value": 15121.92,
-      "market_cap": "3.133B"
+      "volume": 5000.0,
+      "value": 135000.0,
+      "market_cap": "2.970B"
     },
     {
       "symbol": "KCL",
@@ -152,8 +152,8 @@
       "price": 22.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 103.0,
-      "value": 2317.5,
+      "volume": 1495.0,
+      "value": 33124.93,
       "market_cap": "1.346B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 74.74,
       "change": -1.3,
       "change_pct": -1.71,
-      "volume": 653.0,
-      "value": 46850.57,
+      "volume": 4911.0,
+      "value": 355301.03,
       "market_cap": "11.959B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 38.99,
       "change": -0.99,
       "change_pct": -2.48,
-      "volume": 60.0,
-      "value": 2515.2,
+      "volume": 463.0,
+      "value": 18052.95,
       "market_cap": "1.053B"
     },
     {
