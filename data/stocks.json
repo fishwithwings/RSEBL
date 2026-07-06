@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T12:12:12.150583+00:00",
+  "updated_at": "2026-07-06T13:51:48.854147+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -20,8 +20,8 @@
       "price": 129.89,
       "change": -10.11,
       "change_pct": -7.22,
-      "volume": 1250.0,
-      "value": 167470.0,
+      "volume": 13.0,
+      "value": 1688.57,
       "market_cap": "1.299B"
     },
     {
@@ -39,12 +39,12 @@
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
       "pe_ratio": "N/A",
-      "price": 54.01,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 100.0,
-      "value": 5900.0,
-      "market_cap": "3.241B"
+      "price": 54.26,
+      "change": 0.25,
+      "change_pct": 0.46,
+      "volume": 4211.0,
+      "value": 227581.87,
+      "market_cap": "3.256B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 27.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 624.0,
-      "value": 16872.0,
+      "volume": 6820.0,
+      "value": 179811.93,
       "market_cap": "13.182B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 56.0,
-      "value": 30800.0,
+      "volume": 29.0,
+      "value": 15950.0,
       "market_cap": "1.152B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 62.72,
       "change": -5.48,
       "change_pct": -8.04,
-      "volume": 283.0,
-      "value": 19432.67,
+      "volume": 100.0,
+      "value": 7000.0,
       "market_cap": "1.708B"
     },
     {
@@ -97,8 +97,8 @@
       "price": 10.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 130.0,
-      "value": 1417.0,
+      "volume": 205.0,
+      "value": 2234.5,
       "market_cap": "166.469M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.34,
       "change": -0.05,
       "change_pct": -0.21,
-      "volume": 2646.0,
-      "value": 65290.05,
+      "volume": 2500.0,
+      "value": 61593.75,
       "market_cap": "4.771B"
     },
     {
@@ -126,13 +126,13 @@
     {
       "symbol": "GICB",
       "name": "GIC BHUTAN REINSURANCE CO. LTD.",
-      "pe_ratio": 8.46,
-      "price": 28.44,
-      "change": 1.44,
-      "change_pct": 5.33,
-      "volume": 2118.0,
-      "value": 60225.33,
-      "market_cap": "3.128B"
+      "pe_ratio": 8.47,
+      "price": 28.45,
+      "change": 0.01,
+      "change_pct": 0.04,
+      "volume": 7529.0,
+      "value": 214158.22,
+      "market_cap": "3.130B"
     },
     {
       "symbol": "KCL",
@@ -141,20 +141,20 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 15.0,
-      "value": 450.0,
+      "volume": 105.0,
+      "value": 3150.0,
       "market_cap": "150.000M"
     },
     {
       "symbol": "PCAL",
       "name": "PENDEN CEMENT AUTHORITY LTD.",
-      "pe_ratio": 74.93,
-      "price": 22.48,
-      "change": -0.02,
-      "change_pct": -0.09,
-      "volume": 2340.0,
-      "value": 52614.9,
-      "market_cap": "1.345B"
+      "pe_ratio": 75.07,
+      "price": 22.52,
+      "change": 0.04,
+      "change_pct": 0.18,
+      "volume": 4360.0,
+      "value": 98152.32,
+      "market_cap": "1.348B"
     },
     {
       "symbol": "RICB",
@@ -163,8 +163,8 @@
       "price": 74.74,
       "change": -1.3,
       "change_pct": -1.71,
-      "volume": 882.0,
-      "value": 64823.47,
+      "volume": 328.0,
+      "value": 23995.17,
       "market_cap": "11.959B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 129.89,
       "change": -10.11,
       "change_pct": -7.22,
-      "volume": 1250.0,
-      "value": 167470.0,
+      "volume": 13.0,
+      "value": 1688.57,
       "market_cap": "1.299B"
     },
     {
@@ -204,12 +204,12 @@
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
       "pe_ratio": "N/A",
-      "price": 54.01,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 100.0,
-      "value": 5900.0,
-      "market_cap": "3.241B"
+      "price": 54.26,
+      "change": 0.25,
+      "change_pct": 0.46,
+      "volume": 4211.0,
+      "value": 227581.87,
+      "market_cap": "3.256B"
     },
     {
       "symbol": "BNBL",
@@ -218,8 +218,8 @@
       "price": 27.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 624.0,
-      "value": 16872.0,
+      "volume": 6820.0,
+      "value": 179811.93,
       "market_cap": "13.182B"
     },
     {
@@ -240,8 +240,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 56.0,
-      "value": 30800.0,
+      "volume": 29.0,
+      "value": 15950.0,
       "market_cap": "1.152B"
     },
     {
@@ -251,8 +251,8 @@
       "price": 62.72,
       "change": -5.48,
       "change_pct": -8.04,
-      "volume": 283.0,
-      "value": 19432.67,
+      "volume": 100.0,
+      "value": 7000.0,
       "market_cap": "1.708B"
     },
     {
@@ -262,8 +262,8 @@
       "price": 10.9,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 130.0,
-      "value": 1417.0,
+      "volume": 205.0,
+      "value": 2234.5,
       "market_cap": "166.469M"
     },
     {
@@ -273,8 +273,8 @@
       "price": 24.34,
       "change": -0.05,
       "change_pct": -0.21,
-      "volume": 2646.0,
-      "value": 65290.05,
+      "volume": 2500.0,
+      "value": 61593.75,
       "market_cap": "4.771B"
     },
     {
@@ -291,13 +291,13 @@
     {
       "symbol": "GICB",
       "name": "GIC BHUTAN REINSURANCE CO. LTD.",
-      "pe_ratio": 8.46,
-      "price": 28.44,
-      "change": 1.44,
-      "change_pct": 5.33,
-      "volume": 2118.0,
-      "value": 60225.33,
-      "market_cap": "3.128B"
+      "pe_ratio": 8.47,
+      "price": 28.45,
+      "change": 0.01,
+      "change_pct": 0.04,
+      "volume": 7529.0,
+      "value": 214158.22,
+      "market_cap": "3.130B"
     },
     {
       "symbol": "KCL",
@@ -306,20 +306,20 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 15.0,
-      "value": 450.0,
+      "volume": 105.0,
+      "value": 3150.0,
       "market_cap": "150.000M"
     },
     {
       "symbol": "PCAL",
       "name": "PENDEN CEMENT AUTHORITY LTD.",
-      "pe_ratio": 74.93,
-      "price": 22.48,
-      "change": -0.02,
-      "change_pct": -0.09,
-      "volume": 2340.0,
-      "value": 52614.9,
-      "market_cap": "1.345B"
+      "pe_ratio": 75.07,
+      "price": 22.52,
+      "change": 0.04,
+      "change_pct": 0.18,
+      "volume": 4360.0,
+      "value": 98152.32,
+      "market_cap": "1.348B"
     },
     {
       "symbol": "RICB",
@@ -328,20 +328,20 @@
       "price": 74.74,
       "change": -1.3,
       "change_pct": -1.71,
-      "volume": 882.0,
-      "value": 64823.47,
+      "volume": 328.0,
+      "value": 23995.17,
       "market_cap": "11.959B"
     },
     {
       "symbol": "STCB",
       "name": "STATE TRADING CORPORATION OF BHUTAN LTD.",
-      "pe_ratio": 7.8,
-      "price": 38.99,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 140.0,
-      "value": 5458.6,
-      "market_cap": "1.053B"
+      "pe_ratio": 7.76,
+      "price": 38.81,
+      "change": -0.18,
+      "change_pct": -0.46,
+      "volume": 4406.0,
+      "value": 170045.16,
+      "market_cap": "1.048B"
     },
     {
       "symbol": "TBL",
@@ -350,8 +350,8 @@
       "price": 26.06,
       "change": -2.04,
       "change_pct": -7.26,
-      "volume": 3273.0,
-      "value": 91831.03,
+      "volume": 939.0,
+      "value": 26338.95,
       "market_cap": "2.726B"
     }
   ]
