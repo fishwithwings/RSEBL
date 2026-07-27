@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T11:45:54.253106+00:00",
+  "updated_at": "2026-07-27T12:57:28.596809+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 13.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 10.0,
-      "value": 135.0,
+      "volume": 90.0,
+      "value": 1215.0,
       "market_cap": "273.003M"
     },
     {
@@ -20,8 +20,8 @@
       "price": 145.0,
       "change": 7.53,
       "change_pct": 5.48,
-      "volume": 69.0,
-      "value": 10005.0,
+      "volume": 44.0,
+      "value": 6380.0,
       "market_cap": "1.450B"
     },
     {
@@ -42,8 +42,8 @@
       "price": 52.0,
       "change": 0.48,
       "change_pct": 0.93,
-      "volume": 20010.0,
-      "value": 1038519.0,
+      "volume": 36.0,
+      "value": 1940.76,
       "market_cap": "3.120B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 25.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3200.0,
-      "value": 80533.33,
+      "volume": 7987.0,
+      "value": 199595.13,
       "market_cap": "12.205B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 4.0,
-      "value": 2200.0,
+      "volume": 3.0,
+      "value": 1650.0,
       "market_cap": "1.152B"
     },
     {
@@ -86,20 +86,20 @@
       "price": 75.39,
       "change": 0.05,
       "change_pct": 0.07,
-      "volume": 50.0,
-      "value": 3825.0,
+      "volume": 16.0,
+      "value": 1206.24,
       "market_cap": "2.054B"
     },
     {
       "symbol": "DPL",
       "name": "DUNGSAM POLYMERS LIMITED",
-      "pe_ratio": 15.19,
-      "price": 9.57,
-      "change": -0.35,
-      "change_pct": -3.53,
-      "volume": 810.0,
-      "value": 7751.7,
-      "market_cap": "146.156M"
+      "pe_ratio": 15.11,
+      "price": 9.52,
+      "change": -0.05,
+      "change_pct": -0.52,
+      "volume": 717.0,
+      "value": 6897.54,
+      "market_cap": "145.393M"
     },
     {
       "symbol": "DPNB",
@@ -108,8 +108,8 @@
       "price": 24.88,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3118.0,
-      "value": 77950.0,
+      "volume": 1300.0,
+      "value": 32500.0,
       "market_cap": "4.877B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 82.23,
       "change": -0.77,
       "change_pct": -0.93,
-      "volume": 222.0,
-      "value": 18255.06,
+      "volume": 630.0,
+      "value": 52920.0,
       "market_cap": "3.759B"
     },
     {
@@ -141,8 +141,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 125.0,
-      "value": 3375.0,
+      "volume": 3.0,
+      "value": 90.0,
       "market_cap": "150.000M"
     },
     {
@@ -152,8 +152,8 @@
       "price": 20.14,
       "change": 0.11,
       "change_pct": 0.55,
-      "volume": 100.0,
-      "value": 2015.0,
+      "volume": 160.0,
+      "value": 3224.0,
       "market_cap": "1.205B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 70.02,
       "change": -4.72,
       "change_pct": -6.32,
-      "volume": 13.0,
-      "value": 942.5,
+      "volume": 75.0,
+      "value": 5251.5,
       "market_cap": "11.204B"
     },
     {
@@ -181,13 +181,13 @@
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
-      "pe_ratio": 10.08,
-      "price": 26.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 14315.0,
-      "value": 373621.5,
-      "market_cap": "2.719B"
+      "pe_ratio": 9.89,
+      "price": 25.51,
+      "change": -0.49,
+      "change_pct": -1.88,
+      "volume": 51184.0,
+      "value": 1302120.96,
+      "market_cap": "2.668B"
     }
   ]
 }
