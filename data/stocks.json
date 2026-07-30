@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T12:05:22.942535+00:00",
+  "updated_at": "2026-07-30T11:55:25.752476+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -20,8 +20,8 @@
       "price": 145.0,
       "change": 7.53,
       "change_pct": 5.48,
-      "volume": 20.0,
-      "value": 2900.0,
+      "volume": 42.0,
+      "value": 6090.0,
       "market_cap": "1.450B"
     },
     {
@@ -42,8 +42,8 @@
       "price": 52.0,
       "change": 0.48,
       "change_pct": 0.93,
-      "volume": 1187.0,
-      "value": 63124.66,
+      "volume": 160.0,
+      "value": 8500.0,
       "market_cap": "3.120B"
     },
     {
@@ -75,20 +75,20 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 16.0,
-      "value": 8800.0,
+      "volume": 28.0,
+      "value": 15400.0,
       "market_cap": "1.152B"
     },
     {
       "symbol": "DFAL",
       "name": "DRUK FERRO ALLOYS LIMITED",
-      "pe_ratio": 78.58,
-      "price": 75.44,
-      "change": -0.06,
-      "change_pct": -0.08,
-      "volume": 2806.0,
-      "value": 211582.92,
-      "market_cap": "2.055B"
+      "pe_ratio": 80.73,
+      "price": 77.5,
+      "change": 2.06,
+      "change_pct": 2.73,
+      "volume": 1203.0,
+      "value": 93232.5,
+      "market_cap": "2.111B"
     },
     {
       "symbol": "DPL",
@@ -97,8 +97,8 @@
       "price": 9.52,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 725.0,
-      "value": 6902.0,
+      "volume": 368.0,
+      "value": 3503.36,
       "market_cap": "145.393M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 763.0,
-      "value": 18998.7,
+      "volume": 733.0,
+      "value": 18259.03,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 90.95,
       "change": -2.85,
       "change_pct": -3.04,
-      "volume": 345.0,
-      "value": 31377.75,
+      "volume": 1005.0,
+      "value": 89428.25,
       "market_cap": "4.158B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.36,
       "change": -0.09,
       "change_pct": -0.32,
-      "volume": 3000.0,
-      "value": 85350.0,
+      "volume": 100.0,
+      "value": 2845.0,
       "market_cap": "3.120B"
     },
     {
@@ -141,20 +141,20 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3.0,
-      "value": 90.0,
+      "volume": 65.0,
+      "value": 1657.5,
       "market_cap": "150.000M"
     },
     {
       "symbol": "PCAL",
       "name": "PENDEN CEMENT AUTHORITY LTD.",
-      "pe_ratio": 67.37,
-      "price": 20.21,
+      "pe_ratio": 67.17,
+      "price": 20.15,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3171.0,
-      "value": 64085.91,
-      "market_cap": "1.209B"
+      "volume": 10061.0,
+      "value": 202671.66,
+      "market_cap": "1.206B"
     },
     {
       "symbol": "RICB",
@@ -163,8 +163,8 @@
       "price": 70.0,
       "change": -0.02,
       "change_pct": -0.03,
-      "volume": 8534.0,
-      "value": 597380.0,
+      "volume": 5249.0,
+      "value": 367430.0,
       "market_cap": "11.200B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 24.06,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 4842.0,
-      "value": 116498.52,
+      "volume": 200.0,
+      "value": 4830.0,
       "market_cap": "2.516B"
     }
   ]
