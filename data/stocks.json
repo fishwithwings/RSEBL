@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T11:55:25.752476+00:00",
+  "updated_at": "2026-07-31T12:04:39.464503+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -20,8 +20,8 @@
       "price": 145.0,
       "change": 7.53,
       "change_pct": 5.48,
-      "volume": 42.0,
-      "value": 6090.0,
+      "volume": 5.0,
+      "value": 725.0,
       "market_cap": "1.450B"
     },
     {
@@ -39,12 +39,12 @@
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
       "pe_ratio": "N/A",
-      "price": 52.0,
-      "change": 0.48,
-      "change_pct": 0.93,
-      "volume": 160.0,
-      "value": 8500.0,
-      "market_cap": "3.120B"
+      "price": 52.02,
+      "change": 0.01,
+      "change_pct": 0.02,
+      "volume": 7264.0,
+      "value": 381396.32,
+      "market_cap": "3.121B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 25.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 75695.0,
-      "value": 1895686.66,
+      "volume": 1209.0,
+      "value": 30678.38,
       "market_cap": "12.205B"
     },
     {
@@ -97,8 +97,8 @@
       "price": 9.52,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 368.0,
-      "value": 3503.36,
+      "volume": 241.0,
+      "value": 2294.32,
       "market_cap": "145.393M"
     },
     {
@@ -115,13 +115,13 @@
     {
       "symbol": "DWAL",
       "name": "DRUK WANG ALLOYS LTD.",
-      "pe_ratio": 27.07,
-      "price": 90.95,
-      "change": -2.85,
-      "change_pct": -3.04,
-      "volume": 1005.0,
-      "value": 89428.25,
-      "market_cap": "4.158B"
+      "pe_ratio": 24.1,
+      "price": 80.99,
+      "change": -5.0,
+      "change_pct": -5.81,
+      "volume": 9037.0,
+      "value": 785554.14,
+      "market_cap": "3.702B"
     },
     {
       "symbol": "GICB",
@@ -152,8 +152,8 @@
       "price": 20.15,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 10061.0,
-      "value": 202671.66,
+      "volume": 1506.0,
+      "value": 30260.56,
       "market_cap": "1.206B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 35.6,
       "change": -1.68,
       "change_pct": -4.51,
-      "volume": 80.0,
-      "value": 3120.0,
+      "volume": 54.0,
+      "value": 2106.0,
       "market_cap": "961.210M"
     },
     {
