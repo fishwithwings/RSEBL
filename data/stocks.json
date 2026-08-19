@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T10:34:34.367960+00:00",
+  "updated_at": "2026-08-19T10:34:06.536290+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -49,13 +49,13 @@
     {
       "symbol": "BNBL",
       "name": "BHUTAN NATIONAL BANK LTD.",
-      "pe_ratio": 30.86,
-      "price": 25.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 23632.0,
-      "value": 590800.0,
-      "market_cap": "12.205B"
+      "pe_ratio": 30.91,
+      "price": 25.04,
+      "change": 0.04,
+      "change_pct": 0.16,
+      "volume": 365714.0,
+      "value": 9189870.21,
+      "market_cap": "12.225B"
     },
     {
       "symbol": "BPCL",
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2.0,
-      "value": 1100.0,
+      "volume": 40.0,
+      "value": 20400.0,
       "market_cap": "1.152B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 77.5,
       "change": 2.06,
       "change_pct": 2.73,
-      "volume": 51.0,
-      "value": 3951.99,
+      "volume": 600.0,
+      "value": 46200.0,
       "market_cap": "2.111B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 215.0,
-      "value": 5215.36,
+      "volume": 652.0,
+      "value": 16270.66,
       "market_cap": "4.883B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.45,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 150.0,
-      "value": 4350.0,
+      "volume": 2534.0,
+      "value": 72915.85,
       "market_cap": "3.130B"
     },
     {
@@ -141,8 +141,8 @@
       "price": 30.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3.0,
-      "value": 90.0,
+      "volume": 170.0,
+      "value": 5100.0,
       "market_cap": "150.000M"
     },
     {
@@ -152,8 +152,8 @@
       "price": 20.08,
       "change": -0.07,
       "change_pct": -0.35,
-      "volume": 185.0,
-      "value": 3737.0,
+      "volume": 15.0,
+      "value": 309.0,
       "market_cap": "1.202B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 69.5,
       "change": -0.5,
       "change_pct": -0.71,
-      "volume": 141161.0,
-      "value": 9826374.04,
+      "volume": 56.0,
+      "value": 3892.0,
       "market_cap": "11.120B"
     },
     {
@@ -181,13 +181,13 @@
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
-      "pe_ratio": 9.89,
-      "price": 25.51,
+      "pe_ratio": 10.08,
+      "price": 26.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 150.0,
-      "value": 4050.0,
-      "market_cap": "2.668B"
+      "volume": 5020.0,
+      "value": 131607.67,
+      "market_cap": "2.719B"
     }
   ]
 }
