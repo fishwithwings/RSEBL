@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T10:35:36.886422+00:00",
+  "updated_at": "2026-08-24T10:41:38.255005+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -20,8 +20,8 @@
       "price": 125.31,
       "change": 0.01,
       "change_pct": 0.01,
-      "volume": 272.0,
-      "value": 34084.32,
+      "volume": 8.0,
+      "value": 1112.0,
       "market_cap": "1.253B"
     },
     {
@@ -42,8 +42,8 @@
       "price": 53.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 12038.0,
-      "value": 638014.0,
+      "volume": 500.0,
+      "value": 26500.0,
       "market_cap": "3.180B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 1641.0,
-      "value": 41072.86,
+      "volume": 9040.0,
+      "value": 224605.25,
       "market_cap": "12.225B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 53.0,
-      "value": 28500.88,
+      "volume": 23.0,
+      "value": 11804.75,
       "market_cap": "1.152B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 77.5,
       "change": 2.06,
       "change_pct": 2.73,
-      "volume": 3.0,
-      "value": 232.5,
+      "volume": 179.0,
+      "value": 13425.0,
       "market_cap": "2.111B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 2890.0,
-      "value": 71550.62,
+      "volume": 50.0,
+      "value": 1245.5,
       "market_cap": "4.883B"
     },
     {
@@ -127,12 +127,12 @@
       "symbol": "GICB",
       "name": "GIC BHUTAN REINSURANCE CO. LTD.",
       "pe_ratio": 8.47,
-      "price": 28.45,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 175.0,
-      "value": 5250.0,
-      "market_cap": "3.130B"
+      "price": 28.47,
+      "change": 0.02,
+      "change_pct": 0.07,
+      "volume": 6772.0,
+      "value": 193160.01,
+      "market_cap": "3.132B"
     },
     {
       "symbol": "KCL",
@@ -152,8 +152,8 @@
       "price": 20.08,
       "change": -0.07,
       "change_pct": -0.35,
-      "volume": 806.0,
-      "value": 16442.4,
+      "volume": 288.0,
+      "value": 6048.0,
       "market_cap": "1.202B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 69.5,
       "change": -0.5,
       "change_pct": -0.71,
-      "volume": 200.0,
-      "value": 13900.0,
+      "volume": 423.0,
+      "value": 29433.75,
       "market_cap": "11.120B"
     },
     {
@@ -174,20 +174,20 @@
       "price": 35.6,
       "change": -1.68,
       "change_pct": -4.51,
-      "volume": 2.0,
-      "value": 81.86,
+      "volume": 23.0,
+      "value": 941.39,
       "market_cap": "961.210M"
     },
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
-      "pe_ratio": 10.08,
-      "price": 26.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 25.0,
-      "value": 666.25,
-      "market_cap": "2.719B"
+      "pe_ratio": 9.94,
+      "price": 25.65,
+      "change": -0.35,
+      "change_pct": -1.35,
+      "volume": 9561.0,
+      "value": 247971.36,
+      "market_cap": "2.683B"
     }
   ]
 }
