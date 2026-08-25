@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T10:41:38.255005+00:00",
+  "updated_at": "2026-08-25T10:38:36.179392+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 53.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 500.0,
-      "value": 26500.0,
+      "volume": 290.0,
+      "value": 15370.0,
       "market_cap": "3.180B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 9040.0,
-      "value": 224605.25,
+      "volume": 747.0,
+      "value": 18684.96,
       "market_cap": "12.225B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 77.5,
       "change": 2.06,
       "change_pct": 2.73,
-      "volume": 179.0,
-      "value": 13425.0,
+      "volume": 200.0,
+      "value": 15500.0,
       "market_cap": "2.111B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 50.0,
-      "value": 1245.5,
+      "volume": 3050.0,
+      "value": 73803.9,
       "market_cap": "4.883B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.47,
       "change": 0.02,
       "change_pct": 0.07,
-      "volume": 6772.0,
-      "value": 193160.01,
+      "volume": 343.0,
+      "value": 9765.21,
       "market_cap": "3.132B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 20.08,
       "change": -0.07,
       "change_pct": -0.35,
-      "volume": 288.0,
-      "value": 6048.0,
+      "volume": 800.0,
+      "value": 16800.0,
       "market_cap": "1.202B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 69.5,
       "change": -0.5,
       "change_pct": -0.71,
-      "volume": 423.0,
-      "value": 29433.75,
+      "volume": 14.0,
+      "value": 973.0,
       "market_cap": "11.120B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 25.65,
       "change": -0.35,
       "change_pct": -1.35,
-      "volume": 9561.0,
-      "value": 247971.36,
+      "volume": 1500.0,
+      "value": 38520.0,
       "market_cap": "2.683B"
     }
   ]
