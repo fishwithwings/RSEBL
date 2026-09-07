@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T14:07:11.200770+00:00",
+  "updated_at": "2026-09-07T15:41:20.411214+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 12.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1.0,
-      "value": 12.5,
+      "volume": 229.0,
+      "value": 2847.23,
       "market_cap": "262.503M"
     },
     {
@@ -20,8 +20,8 @@
       "price": 144.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 5.0,
-      "value": 715.0,
+      "volume": 13.0,
+      "value": 1872.0,
       "market_cap": "1.440B"
     },
     {
@@ -39,12 +39,12 @@
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
       "pe_ratio": "N/A",
-      "price": 52.27,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 159.0,
-      "value": 8725.13,
-      "market_cap": "3.136B"
+      "price": 54.91,
+      "change": -0.09,
+      "change_pct": -0.16,
+      "volume": 27771.0,
+      "value": 1498993.13,
+      "market_cap": "3.295B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 531.0,
-      "value": 13275.0,
+      "volume": 7987.0,
+      "value": 199738.9,
       "market_cap": "12.225B"
     },
     {
@@ -75,20 +75,20 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 237.0,
-      "value": 130350.0,
+      "volume": 40.0,
+      "value": 22000.0,
       "market_cap": "1.152B"
     },
     {
       "symbol": "DFAL",
       "name": "DRUK FERRO ALLOYS LIMITED",
-      "pe_ratio": 80.73,
-      "price": 77.5,
-      "change": 2.06,
-      "change_pct": 2.73,
-      "volume": 50.0,
-      "value": 3500.0,
-      "market_cap": "2.111B"
+      "pe_ratio": 70.43,
+      "price": 67.61,
+      "change": 1.61,
+      "change_pct": 2.44,
+      "volume": 2257.0,
+      "value": 151971.33,
+      "market_cap": "1.842B"
     },
     {
       "symbol": "DPL",
@@ -97,8 +97,8 @@
       "price": 9.52,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 20.0,
-      "value": 190.4,
+      "volume": 40.0,
+      "value": 380.8,
       "market_cap": "145.393M"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.47,
       "change": 0.02,
       "change_pct": 0.07,
-      "volume": 213.0,
-      "value": 6336.75,
+      "volume": 265.0,
+      "value": 7616.1,
       "market_cap": "3.132B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 21.0,
       "change": 0.92,
       "change_pct": 4.58,
-      "volume": 54.0,
-      "value": 1179.0,
+      "volume": 422.0,
+      "value": 9284.0,
       "market_cap": "1.257B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 69.5,
       "change": -0.5,
       "change_pct": -0.71,
-      "volume": 2550.0,
-      "value": 174675.0,
+      "volume": 387.0,
+      "value": 26606.25,
       "market_cap": "11.120B"
     },
     {
@@ -181,13 +181,13 @@
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
-      "pe_ratio": 9.94,
-      "price": 25.65,
-      "change": -0.35,
-      "change_pct": -1.35,
-      "volume": 220.0,
-      "value": 5720.0,
-      "market_cap": "2.683B"
+      "pe_ratio": 10.85,
+      "price": 28.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 16001.0,
+      "value": 448028.0,
+      "market_cap": "2.929B"
     }
   ]
 }
