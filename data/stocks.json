@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T15:41:20.411214+00:00",
+  "updated_at": "2026-09-08T14:18:56.781063+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 7987.0,
-      "value": 199738.9,
+      "volume": 7385.0,
+      "value": 182778.75,
       "market_cap": "12.225B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 764.0,
-      "value": 17731.35,
+      "volume": 935.0,
+      "value": 23290.85,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 80.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 598.0,
-      "value": 47840.0,
+      "volume": 5.0,
+      "value": 405.0,
       "market_cap": "3.657B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.47,
       "change": 0.02,
       "change_pct": 0.07,
-      "volume": 265.0,
-      "value": 7616.1,
+      "volume": 10.0,
+      "value": 290.0,
       "market_cap": "3.132B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 69.5,
       "change": -0.5,
       "change_pct": -0.71,
-      "volume": 387.0,
-      "value": 26606.25,
+      "volume": 130.0,
+      "value": 8970.0,
       "market_cap": "11.120B"
     },
     {
@@ -174,20 +174,20 @@
       "price": 35.6,
       "change": -1.68,
       "change_pct": -4.51,
-      "volume": 250.0,
-      "value": 9007.5,
+      "volume": 47.0,
+      "value": 1692.0,
       "market_cap": "961.210M"
     },
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
-      "pe_ratio": 10.85,
-      "price": 28.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 16001.0,
-      "value": 448028.0,
-      "market_cap": "2.929B"
+      "pe_ratio": 11.61,
+      "price": 29.95,
+      "change": 1.95,
+      "change_pct": 6.96,
+      "volume": 44022.0,
+      "value": 1289844.6,
+      "market_cap": "3.132B"
     }
   ]
 }
