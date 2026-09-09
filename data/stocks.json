@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T14:18:56.781063+00:00",
+  "updated_at": "2026-09-09T14:18:40.441331+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 12.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 229.0,
-      "value": 2847.23,
+      "volume": 150.0,
+      "value": 1800.0,
       "market_cap": "262.503M"
     },
     {
@@ -39,12 +39,12 @@
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
       "pe_ratio": "N/A",
-      "price": 54.91,
-      "change": -0.09,
-      "change_pct": -0.16,
-      "volume": 27771.0,
-      "value": 1498993.13,
-      "market_cap": "3.295B"
+      "price": 57.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 21003.0,
+      "value": 1186669.5,
+      "market_cap": "3.420B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 7385.0,
-      "value": 182778.75,
+      "volume": 1850.0,
+      "value": 46305.5,
       "market_cap": "12.225B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 40.0,
-      "value": 22000.0,
+      "volume": 11.0,
+      "value": 6044.5,
       "market_cap": "1.152B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 935.0,
-      "value": 23290.85,
+      "volume": 303.0,
+      "value": 7547.73,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 80.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 5.0,
-      "value": 405.0,
+      "volume": 245.0,
+      "value": 19600.0,
       "market_cap": "3.657B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.47,
       "change": 0.02,
       "change_pct": 0.07,
-      "volume": 10.0,
-      "value": 290.0,
+      "volume": 525.0,
+      "value": 15522.5,
       "market_cap": "3.132B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 21.0,
       "change": 0.92,
       "change_pct": 4.58,
-      "volume": 422.0,
-      "value": 9284.0,
+      "volume": 1704.0,
+      "value": 35784.0,
       "market_cap": "1.257B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 69.5,
       "change": -0.5,
       "change_pct": -0.71,
-      "volume": 130.0,
-      "value": 8970.0,
+      "volume": 550.0,
+      "value": 37675.0,
       "market_cap": "11.120B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 35.6,
       "change": -1.68,
       "change_pct": -4.51,
-      "volume": 47.0,
-      "value": 1692.0,
+      "volume": 500.0,
+      "value": 20250.0,
       "market_cap": "961.210M"
     },
     {
@@ -185,8 +185,8 @@
       "price": 29.95,
       "change": 1.95,
       "change_pct": 6.96,
-      "volume": 44022.0,
-      "value": 1289844.6,
+      "volume": 10.0,
+      "value": 299.5,
       "market_cap": "3.132B"
     }
   ]
