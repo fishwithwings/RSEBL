@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:48:24.705073+00:00",
+  "updated_at": "2026-09-18T14:16:42.901676+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 11.51,
       "change": -0.99,
       "change_pct": -7.92,
-      "volume": 674.0,
-      "value": 7528.58,
+      "volume": 586.0,
+      "value": 6563.2,
       "market_cap": "241.713M"
     },
     {
@@ -39,12 +39,12 @@
       "symbol": "BIL",
       "name": "BHUTAN INSURANCE LTD.",
       "pe_ratio": "N/A",
-      "price": 57.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 17.0,
-      "value": 969.0,
-      "market_cap": "3.420B"
+      "price": 54.0,
+      "change": -0.01,
+      "change_pct": -0.02,
+      "volume": 8396.0,
+      "value": 453429.21,
+      "market_cap": "3.240B"
     },
     {
       "symbol": "BNBL",
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 3192.0,
-      "value": 77841.27,
+      "volume": 1278.0,
+      "value": 31183.2,
       "market_cap": "12.225B"
     },
     {
@@ -64,8 +64,8 @@
       "price": 36.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3.0,
-      "value": 108.0,
+      "volume": 50.0,
+      "value": 1800.0,
       "market_cap": "89.760M"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 86.0,
-      "value": 47300.0,
+      "volume": 4.0,
+      "value": 2200.0,
       "market_cap": "1.152B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 67.61,
       "change": 1.61,
       "change_pct": 2.44,
-      "volume": 5.0,
-      "value": 338.05,
+      "volume": 1001.0,
+      "value": 68057.99,
       "market_cap": "1.842B"
     },
     {
@@ -95,10 +95,10 @@
       "name": "DUNGSAM POLYMERS LIMITED",
       "pe_ratio": 14.44,
       "price": 9.1,
-      "change": -0.42,
-      "change_pct": -4.41,
-      "volume": 5000.0,
-      "value": 45500.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 4805.0,
+      "value": 43725.5,
       "market_cap": "138.978M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 4274.0,
-      "value": 108274.67,
+      "volume": 10.0,
+      "value": 249.1,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 80.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 50.0,
-      "value": 4237.5,
+      "volume": 100.0,
+      "value": 8900.0,
       "market_cap": "3.657B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 28.47,
       "change": 0.02,
       "change_pct": 0.07,
-      "volume": 2268.0,
-      "value": 64622.88,
+      "volume": 20.0,
+      "value": 569.4,
       "market_cap": "3.132B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 21.0,
       "change": 0.92,
       "change_pct": 4.58,
-      "volume": 2423.0,
-      "value": 49671.5,
+      "volume": 745.0,
+      "value": 16142.29,
       "market_cap": "1.257B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 67.46,
       "change": -2.04,
       "change_pct": -2.94,
-      "volume": 512.0,
-      "value": 33839.1,
+      "volume": 299.0,
+      "value": 20172.04,
       "market_cap": "10.794B"
     },
     {
@@ -174,8 +174,8 @@
       "price": 35.6,
       "change": -1.68,
       "change_pct": -4.51,
-      "volume": 1000.0,
-      "value": 39500.0,
+      "volume": 100.0,
+      "value": 3660.0,
       "market_cap": "961.210M"
     },
     {
@@ -185,8 +185,8 @@
       "price": 29.95,
       "change": 1.95,
       "change_pct": 6.96,
-      "volume": 860.0,
-      "value": 23660.75,
+      "volume": 138.0,
+      "value": 3991.42,
       "market_cap": "3.132B"
     }
   ]
