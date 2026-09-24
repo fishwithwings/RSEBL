@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-23T14:49:37.515577+00:00",
+  "updated_at": "2026-09-24T14:48:21.617153+00:00",
   "bsi": 3.0,
   "stocks": [
     {
       "symbol": "BBPL",
       "name": "BHUTAN BOARD PRODUCTS LTD.",
       "pe_ratio": "N/A",
-      "price": 11.51,
-      "change": -0.99,
-      "change_pct": -7.92,
-      "volume": 586.0,
-      "value": 6563.2,
-      "market_cap": "241.713M"
+      "price": 11.49,
+      "change": -0.01,
+      "change_pct": -0.09,
+      "volume": 2001.0,
+      "value": 22816.4,
+      "market_cap": "241.293M"
     },
     {
       "symbol": "BCCL",
@@ -20,8 +20,8 @@
       "price": 144.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1.0,
-      "value": 144.0,
+      "volume": 310.0,
+      "value": 44330.0,
       "market_cap": "1.440B"
     },
     {
@@ -42,8 +42,8 @@
       "price": 54.0,
       "change": -0.01,
       "change_pct": -0.02,
-      "volume": 8396.0,
-      "value": 453429.21,
+      "volume": 1709.0,
+      "value": 93354.13,
       "market_cap": "3.240B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 25.04,
       "change": 0.04,
       "change_pct": 0.16,
-      "volume": 1278.0,
-      "value": 31183.2,
+      "volume": 808.0,
+      "value": 20101.69,
       "market_cap": "12.225B"
     },
     {
@@ -64,8 +64,8 @@
       "price": 36.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 50.0,
-      "value": 1800.0,
+      "volume": 20.0,
+      "value": 720.0,
       "market_cap": "89.760M"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 4.0,
-      "value": 2200.0,
+      "volume": 37.0,
+      "value": 19610.0,
       "market_cap": "1.152B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 67.61,
       "change": 1.61,
       "change_pct": 2.44,
-      "volume": 1001.0,
-      "value": 68057.99,
+      "volume": 695.0,
+      "value": 46635.66,
       "market_cap": "1.842B"
     },
     {
@@ -108,20 +108,20 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 10.0,
-      "value": 249.1,
+      "volume": 1266.0,
+      "value": 31351.91,
       "market_cap": "4.883B"
     },
     {
       "symbol": "DWAL",
       "name": "DRUK WANG ALLOYS LTD.",
-      "pe_ratio": 23.81,
-      "price": 80.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 100.0,
-      "value": 8900.0,
-      "market_cap": "3.657B"
+      "pe_ratio": 26.06,
+      "price": 87.57,
+      "change": 7.57,
+      "change_pct": 9.46,
+      "volume": 1915.0,
+      "value": 166997.58,
+      "market_cap": "4.003B"
     },
     {
       "symbol": "GICB",
@@ -130,8 +130,8 @@
       "price": 28.47,
       "change": 0.02,
       "change_pct": 0.07,
-      "volume": 20.0,
-      "value": 569.4,
+      "volume": 789.0,
+      "value": 23407.0,
       "market_cap": "3.132B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 21.0,
       "change": 0.92,
       "change_pct": 4.58,
-      "volume": 745.0,
-      "value": 16142.29,
+      "volume": 500.0,
+      "value": 11235.0,
       "market_cap": "1.257B"
     },
     {
@@ -163,20 +163,20 @@
       "price": 67.46,
       "change": -2.04,
       "change_pct": -2.94,
-      "volume": 299.0,
-      "value": 20172.04,
+      "volume": 1585.0,
+      "value": 106939.95,
       "market_cap": "10.794B"
     },
     {
       "symbol": "STCB",
       "name": "STATE TRADING CORPORATION OF BHUTAN LTD.",
-      "pe_ratio": 7.12,
-      "price": 35.6,
-      "change": -1.68,
-      "change_pct": -4.51,
-      "volume": 100.0,
-      "value": 3660.0,
-      "market_cap": "961.210M"
+      "pe_ratio": 8.05,
+      "price": 40.25,
+      "change": -0.25,
+      "change_pct": -0.62,
+      "volume": 2610.0,
+      "value": 97092.0,
+      "market_cap": "1.087B"
     },
     {
       "symbol": "TBL",
@@ -185,8 +185,8 @@
       "price": 29.95,
       "change": 1.95,
       "change_pct": 6.96,
-      "volume": 138.0,
-      "value": 3991.42,
+      "volume": 2162.0,
+      "value": 64751.9,
       "market_cap": "3.132B"
     }
   ]
