@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T16:25:43.312143+00:00",
+  "updated_at": "2026-09-30T16:20:36.600858+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -16,13 +16,13 @@
     {
       "symbol": "BCCL",
       "name": "BHUTAN CARBIDE & CHEMICALS LTD.",
-      "pe_ratio": 177.78,
-      "price": 144.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 1.0,
-      "value": 144.0,
-      "market_cap": "1.440B"
+      "pe_ratio": 161.37,
+      "price": 130.71,
+      "change": -13.29,
+      "change_pct": -9.23,
+      "volume": 416.0,
+      "value": 56785.39,
+      "market_cap": "1.307B"
     },
     {
       "symbol": "BFAL",
@@ -42,8 +42,8 @@
       "price": 53.94,
       "change": -0.06,
       "change_pct": -0.11,
-      "volume": 293.0,
-      "value": 16408.0,
+      "volume": 1098.0,
+      "value": 59841.0,
       "market_cap": "3.236B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 24.48,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1614.0,
-      "value": 39381.6,
+      "volume": 4850.0,
+      "value": 118808.83,
       "market_cap": "11.952B"
     },
     {
@@ -75,20 +75,20 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 45.0,
-      "value": 24750.0,
+      "volume": 37.0,
+      "value": 20350.0,
       "market_cap": "1.152B"
     },
     {
       "symbol": "DFAL",
       "name": "DRUK FERRO ALLOYS LIMITED",
-      "pe_ratio": 70.43,
-      "price": 67.61,
-      "change": 1.61,
-      "change_pct": 2.44,
-      "volume": 75.0,
-      "value": 5025.0,
-      "market_cap": "1.842B"
+      "pe_ratio": 64.64,
+      "price": 62.05,
+      "change": -3.95,
+      "change_pct": -5.98,
+      "volume": 3349.0,
+      "value": 214851.23,
+      "market_cap": "1.690B"
     },
     {
       "symbol": "DPL",
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 200.0,
-      "value": 5000.0,
+      "volume": 579.0,
+      "value": 14113.13,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 82.57,
       "change": -5.0,
       "change_pct": -5.71,
-      "volume": 3861.0,
-      "value": 317164.6,
+      "volume": 1120.0,
+      "value": 90440.0,
       "market_cap": "3.775B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 30.19,
       "change": 0.19,
       "change_pct": 0.63,
-      "volume": 11263.0,
-      "value": 339579.45,
+      "volume": 394.0,
+      "value": 11974.79,
       "market_cap": "3.321B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 21.0,
       "change": 0.92,
       "change_pct": 4.58,
-      "volume": 300.0,
-      "value": 6600.0,
+      "volume": 1255.0,
+      "value": 27032.7,
       "market_cap": "1.257B"
     },
     {
@@ -163,20 +163,20 @@
       "price": 67.03,
       "change": -0.43,
       "change_pct": -0.64,
-      "volume": 1995.0,
-      "value": 135274.3,
+      "volume": 3434.0,
+      "value": 230276.29,
       "market_cap": "10.725B"
     },
     {
       "symbol": "STCB",
       "name": "STATE TRADING CORPORATION OF BHUTAN LTD.",
-      "pe_ratio": 7.14,
-      "price": 35.71,
-      "change": 0.11,
-      "change_pct": 0.31,
-      "volume": 5680.0,
-      "value": 202694.86,
-      "market_cap": "964.180M"
+      "pe_ratio": 7.1,
+      "price": 35.52,
+      "change": -0.19,
+      "change_pct": -0.53,
+      "volume": 5033.0,
+      "value": 179015.86,
+      "market_cap": "959.050M"
     },
     {
       "symbol": "TBL",
@@ -185,8 +185,8 @@
       "price": 29.95,
       "change": 1.95,
       "change_pct": 6.96,
-      "volume": 244.0,
-      "value": 7307.8,
+      "volume": 553.0,
+      "value": 16237.46,
       "market_cap": "3.132B"
     }
   ]
