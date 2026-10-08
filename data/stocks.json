@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T17:21:44.317210+00:00",
+  "updated_at": "2026-10-08T17:18:31.138922+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 53.94,
       "change": -0.06,
       "change_pct": -0.11,
-      "volume": 10.0,
-      "value": 555.0,
+      "volume": 90.0,
+      "value": 4995.0,
       "market_cap": "3.236B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 24.48,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 5499.0,
-      "value": 132809.53,
+      "volume": 1405.0,
+      "value": 34394.4,
       "market_cap": "11.952B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 4.0,
-      "value": 2200.0,
+      "volume": 21.0,
+      "value": 11550.0,
       "market_cap": "1.152B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 62.05,
       "change": -3.95,
       "change_pct": -5.98,
-      "volume": 764.0,
-      "value": 45840.0,
+      "volume": 350.0,
+      "value": 21717.5,
       "market_cap": "1.690B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 15.0,
-      "value": 375.0,
+      "volume": 3015.0,
+      "value": 76128.75,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 82.57,
       "change": -5.0,
       "change_pct": -5.71,
-      "volume": 5.0,
-      "value": 412.85,
+      "volume": 701.0,
+      "value": 60748.66,
       "market_cap": "3.775B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 67.03,
       "change": -0.43,
       "change_pct": -0.64,
-      "volume": 301.0,
-      "value": 20307.27,
+      "volume": 20.0,
+      "value": 1360.0,
       "market_cap": "10.725B"
     },
     {
@@ -185,8 +185,8 @@
       "price": 29.95,
       "change": 1.95,
       "change_pct": 6.96,
-      "volume": 142.0,
-      "value": 4186.63,
+      "volume": 110.0,
+      "value": 3190.0,
       "market_cap": "3.132B"
     }
   ]
