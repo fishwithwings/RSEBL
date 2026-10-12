@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T17:08:20.803369+00:00",
+  "updated_at": "2026-10-12T19:43:35.241946+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 11.2,
       "change": -0.29,
       "change_pct": -2.52,
-      "volume": 300.0,
-      "value": 3360.0,
+      "volume": 701.0,
+      "value": 7851.2,
       "market_cap": "235.203M"
     },
     {
@@ -42,8 +42,8 @@
       "price": 53.94,
       "change": -0.06,
       "change_pct": -0.11,
-      "volume": 20.0,
-      "value": 1110.0,
+      "volume": 263.0,
+      "value": 14465.0,
       "market_cap": "3.236B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 24.48,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 390.0,
-      "value": 9501.38,
+      "volume": 12148.0,
+      "value": 293154.6,
       "market_cap": "11.952B"
     },
     {
@@ -64,8 +64,8 @@
       "price": 36.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 5.0,
-      "value": 180.0,
+      "volume": 26.0,
+      "value": 936.0,
       "market_cap": "89.760M"
     },
     {
@@ -97,8 +97,8 @@
       "price": 9.1,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 310.0,
-      "value": 2821.0,
+      "volume": 270.0,
+      "value": 2457.0,
       "market_cap": "138.978M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 402.0,
-      "value": 10157.2,
+      "volume": 240.0,
+      "value": 6024.0,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 82.57,
       "change": -5.0,
       "change_pct": -5.71,
-      "volume": 5.0,
-      "value": 444.5,
+      "volume": 120.0,
+      "value": 10656.0,
       "market_cap": "3.775B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 30.19,
       "change": 0.19,
       "change_pct": 0.63,
-      "volume": 400.0,
-      "value": 13888.0,
+      "volume": 4.0,
+      "value": 122.0,
       "market_cap": "3.321B"
     },
     {
@@ -141,8 +141,8 @@
       "price": 25.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 33.0,
-      "value": 825.0,
+      "volume": 15.0,
+      "value": 382.5,
       "market_cap": "127.500M"
     },
     {
@@ -152,8 +152,8 @@
       "price": 22.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 95.0,
-      "value": 2290.45,
+      "volume": 328.0,
+      "value": 7219.28,
       "market_cap": "1.316B"
     },
     {
@@ -163,20 +163,20 @@
       "price": 67.03,
       "change": -0.43,
       "change_pct": -0.64,
-      "volume": 167.0,
-      "value": 11275.01,
+      "volume": 734.0,
+      "value": 49912.0,
       "market_cap": "10.725B"
     },
     {
       "symbol": "STCB",
       "name": "STATE TRADING CORPORATION OF BHUTAN LTD.",
-      "pe_ratio": 7.6,
-      "price": 38.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 2500.0,
-      "value": 95000.0,
-      "market_cap": "1.026B"
+      "pe_ratio": 7.68,
+      "price": 38.42,
+      "change": 0.42,
+      "change_pct": 1.11,
+      "volume": 1240.0,
+      "value": 47574.67,
+      "market_cap": "1.037B"
     },
     {
       "symbol": "TBL",
@@ -185,8 +185,8 @@
       "price": 29.95,
       "change": 1.95,
       "change_pct": 6.96,
-      "volume": 758.0,
-      "value": 20845.0,
+      "volume": 620.0,
+      "value": 18048.2,
       "market_cap": "3.132B"
     }
   ]
