@@ -201,90 +201,50 @@ def scrape_history(page):
 
 
 def parse_rsc_history(html):
+    """Read complete RSC JSON records and associate histories by their own symbol.
+
+    History arrays can exceed 400 KB. Never truncate them or infer ownership
+    from a nearby symbol: both can silently drop or misattribute price data.
     """
-    Parse Next.js RSC streaming payload (self.__next_f.push([1,"..."]) calls)
-    to find per-stock date/close arrays.
-    """
+    chunks = []
+    for match in re.finditer(
+        r'self\.__next_f\.push\(\s*\[\s*1\s*,\s*("(?:[^"\\]|\\.)*")\s*\]\s*\)',
+        html,
+    ):
+        try:
+            chunks.append(json.loads(match.group(1)))
+        except json.JSONDecodeError:
+            continue
+    full_rsc = "".join(chunks)
+    print(f"  RSC payload: {len(full_rsc):,} chars")
     histories = {}
 
-    # Extract and decode all type-1 RSC push chunks
-    raw_chunks = re.findall(
-        r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html
-    )
-    if not raw_chunks:
-        print("  No RSC chunks found in HTML.")
-        return histories
+    def visit(value):
+        if isinstance(value, dict):
+            symbol = value.get("symbol") or value.get("script") or value.get("ticker")
+            entries = value.get("history")
+            if isinstance(symbol, str) and isinstance(entries, list):
+                valid = [entry for entry in entries if isinstance(entry, dict)]
+                daily = deduplicate_daily(valid)
+                if daily and len(daily) > len(histories.get(symbol, [])):
+                    histories[symbol] = daily
+            for child in value.values():
+                if isinstance(child, (dict, list)):
+                    visit(child)
+        elif isinstance(value, list):
+            for child in value:
+                if isinstance(child, (dict, list)):
+                    visit(child)
 
-    full_rsc = ""
-    for chunk in raw_chunks:
+    # Flight JSON records are newline-delimited hexadecimal IDs followed by a
+    # colon. Other record types (module metadata, text, etc.) are ignored.
+    for match in re.finditer(r"^[0-9a-fA-F]+:(.*)$", full_rsc, re.MULTILINE):
         try:
-            full_rsc += chunk.encode("utf-8").decode("unicode_escape")
-        except Exception:
-            full_rsc += chunk
-
-    print(f"  RSC payload: {len(full_rsc):,} chars")
-
-    # For each known symbol, find nearby price arrays
-    for symbol in KNOWN_SYMBOLS:
-        # Search for the symbol string in the RSC data
-        sym_pattern = re.compile(r'"' + re.escape(symbol) + r'"')
-        matches = list(sym_pattern.finditer(full_rsc))
-        if not matches:
+            visit(json.loads(match.group(1)))
+        except (json.JSONDecodeError, RecursionError):
             continue
-
-        for m in matches:
-            # Search within ±30k chars around the symbol mention
-            start = max(0, m.start() - 5000)
-            end = min(len(full_rsc), m.end() + 30000)
-            window = full_rsc[start:end]
-
-            # Find a date/close array in the window
-            arr_idx = window.find('[{"date":')
-            if arr_idx == -1:
-                arr_idx = window.find('[{"date" :')
-            if arr_idx == -1:
-                continue
-
-            # Find matching closing bracket
-            depth, i, arr_end = 0, arr_idx, arr_idx
-            in_str = False
-            escape_next = False
-            for ci, ch in enumerate(window[arr_idx:], arr_idx):
-                if escape_next:
-                    escape_next = False
-                    continue
-                if ch == "\\" and in_str:
-                    escape_next = True
-                    continue
-                if ch == '"':
-                    in_str = not in_str
-                if not in_str:
-                    if ch == "[":
-                        depth += 1
-                    elif ch == "]":
-                        depth -= 1
-                        if depth == 0:
-                            arr_end = ci + 1
-                            break
-
-            if arr_end <= arr_idx:
-                continue
-
-            try:
-                arr = json.loads(window[arr_idx:arr_end])
-                if (
-                    isinstance(arr, list) and len(arr) > 20
-                    and isinstance(arr[0], dict)
-                    and "date" in arr[0] and "close" in arr[0]
-                ):
-                    daily = deduplicate_daily(arr)
-                    if daily:
-                        histories[symbol] = daily
-                        print(f"    {symbol}: {len(daily)} days (RSC)")
-                        break
-            except json.JSONDecodeError:
-                continue
-
+    for symbol, daily in histories.items():
+        print(f"    {symbol}: {len(daily)} days (RSC)")
     return histories
 
 
@@ -393,6 +353,9 @@ def main():
 
         browser.close()
 
+    if not histories:
+        raise RuntimeError("No stock histories extracted; refusing to overwrite market data.")
+
     save_json("stocks.json", {
         "updated_at": timestamp,
         "bsi": bsi,
@@ -414,3 +377,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
