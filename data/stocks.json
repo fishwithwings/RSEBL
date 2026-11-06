@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T17:56:03.462674+00:00",
+  "updated_at": "2026-11-06T17:17:17.697609+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -7,10 +7,10 @@
       "name": "BHUTAN BOARD PRODUCTS LTD.",
       "pe_ratio": "N/A",
       "price": 11.2,
-      "change": -0.29,
-      "change_pct": -2.52,
-      "volume": 100.0,
-      "value": 1120.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 5016.0,
+      "value": 56179.2,
       "market_cap": "235.203M"
     },
     {
@@ -53,8 +53,8 @@
       "price": 23.9,
       "change": 0.31,
       "change_pct": 1.31,
-      "volume": 263.0,
-      "value": 6296.97,
+      "volume": 121.0,
+      "value": 2904.0,
       "market_cap": "11.668B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 545.0,
       "change": -5.0,
       "change_pct": -0.91,
-      "volume": 98.0,
-      "value": 53410.0,
+      "volume": 61.0,
+      "value": 33346.67,
       "market_cap": "1.141B"
     },
     {
@@ -93,13 +93,13 @@
     {
       "symbol": "DPL",
       "name": "DUNGSAM POLYMERS LIMITED",
-      "pe_ratio": 15.08,
-      "price": 9.5,
+      "pe_ratio": 15.87,
+      "price": 10.0,
       "change": 0.0,
       "change_pct": 0.0,
       "volume": 2000.0,
-      "value": 19000.0,
-      "market_cap": "145.087M"
+      "value": 20000.0,
+      "market_cap": "152.724M"
     },
     {
       "symbol": "DPNB",
@@ -108,20 +108,20 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 1638.0,
-      "value": 41057.64,
+      "volume": 451.0,
+      "value": 12086.8,
       "market_cap": "4.883B"
     },
     {
       "symbol": "DWAL",
       "name": "DRUK WANG ALLOYS LTD.",
-      "pe_ratio": 16.96,
-      "price": 57.0,
-      "change": -57.0,
-      "change_pct": -50.0,
-      "volume": 1518.0,
-      "value": 94637.81,
-      "market_cap": "2.606B"
+      "pe_ratio": 17.01,
+      "price": 57.15,
+      "change": 0.15,
+      "change_pct": 0.26,
+      "volume": 6488.0,
+      "value": 378574.8,
+      "market_cap": "5.225B"
     },
     {
       "symbol": "GICB",
@@ -130,8 +130,8 @@
       "price": 34.65,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2280.0,
-      "value": 79268.0,
+      "volume": 607.0,
+      "value": 21032.55,
       "market_cap": "3.812B"
     },
     {
@@ -141,8 +141,8 @@
       "price": 25.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 15.0,
-      "value": 382.5,
+      "volume": 100.0,
+      "value": 2168.0,
       "market_cap": "127.500M"
     },
     {
@@ -163,8 +163,8 @@
       "price": 67.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 375.0,
-      "value": 25125.0,
+      "volume": 40.0,
+      "value": 2680.0,
       "market_cap": "10.720B"
     },
     {
@@ -172,10 +172,10 @@
       "name": "BHUTAN BOARD PRODUCTS LTD.",
       "pe_ratio": "N/A",
       "price": 11.2,
-      "change": -0.29,
-      "change_pct": -2.52,
-      "volume": 100.0,
-      "value": 1120.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 5016.0,
+      "value": 56179.2,
       "market_cap": "235.203M"
     },
     {
@@ -218,8 +218,8 @@
       "price": 23.9,
       "change": 0.31,
       "change_pct": 1.31,
-      "volume": 263.0,
-      "value": 6296.97,
+      "volume": 121.0,
+      "value": 2904.0,
       "market_cap": "11.668B"
     },
     {
@@ -240,8 +240,8 @@
       "price": 545.0,
       "change": -5.0,
       "change_pct": -0.91,
-      "volume": 98.0,
-      "value": 53410.0,
+      "volume": 61.0,
+      "value": 33346.67,
       "market_cap": "1.141B"
     },
     {
@@ -258,13 +258,13 @@
     {
       "symbol": "DPL",
       "name": "DUNGSAM POLYMERS LIMITED",
-      "pe_ratio": 15.08,
-      "price": 9.5,
+      "pe_ratio": 15.87,
+      "price": 10.0,
       "change": 0.0,
       "change_pct": 0.0,
       "volume": 2000.0,
-      "value": 19000.0,
-      "market_cap": "145.087M"
+      "value": 20000.0,
+      "market_cap": "152.724M"
     },
     {
       "symbol": "DPNB",
@@ -273,20 +273,20 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 1638.0,
-      "value": 41057.64,
+      "volume": 451.0,
+      "value": 12086.8,
       "market_cap": "4.883B"
     },
     {
       "symbol": "DWAL",
       "name": "DRUK WANG ALLOYS LTD.",
-      "pe_ratio": 16.96,
-      "price": 57.0,
-      "change": -57.0,
-      "change_pct": -50.0,
-      "volume": 1518.0,
-      "value": 94637.81,
-      "market_cap": "2.606B"
+      "pe_ratio": 17.01,
+      "price": 57.15,
+      "change": 0.15,
+      "change_pct": 0.26,
+      "volume": 6488.0,
+      "value": 378574.8,
+      "market_cap": "5.225B"
     },
     {
       "symbol": "GICB",
@@ -295,8 +295,8 @@
       "price": 34.65,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2280.0,
-      "value": 79268.0,
+      "volume": 607.0,
+      "value": 21032.55,
       "market_cap": "3.812B"
     },
     {
@@ -306,8 +306,8 @@
       "price": 25.5,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 15.0,
-      "value": 382.5,
+      "volume": 100.0,
+      "value": 2168.0,
       "market_cap": "127.500M"
     },
     {
@@ -328,8 +328,8 @@
       "price": 67.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 375.0,
-      "value": 25125.0,
+      "volume": 40.0,
+      "value": 2680.0,
       "market_cap": "10.720B"
     },
     {
@@ -339,8 +339,8 @@
       "price": 39.0,
       "change": 0.58,
       "change_pct": 1.51,
-      "volume": 848.0,
-      "value": 33072.0,
+      "volume": 100.0,
+      "value": 3900.0,
       "market_cap": "1.053B"
     },
     {
@@ -350,8 +350,8 @@
       "price": 27.03,
       "change": 0.03,
       "change_pct": 0.11,
-      "volume": 1000.0,
-      "value": 27000.0,
+      "volume": 15.0,
+      "value": 435.0,
       "market_cap": "2.827B"
     }
   ]
