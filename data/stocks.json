@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:10:52.558852+00:00",
+  "updated_at": "2026-11-17T19:01:41.262777+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -42,8 +42,8 @@
       "price": 54.52,
       "change": 0.52,
       "change_pct": 0.96,
-      "volume": 1525.0,
-      "value": 83849.58,
+      "volume": 220.0,
+      "value": 12100.0,
       "market_cap": "3.271B"
     },
     {
@@ -53,8 +53,8 @@
       "price": 24.11,
       "change": 0.11,
       "change_pct": 0.46,
-      "volume": 3510.0,
-      "value": 84495.73,
+      "volume": 4863.0,
+      "value": 117816.6,
       "market_cap": "11.771B"
     },
     {
@@ -75,8 +75,8 @@
       "price": 545.0,
       "change": -5.0,
       "change_pct": -0.91,
-      "volume": 18.0,
-      "value": 9405.09,
+      "volume": 2.0,
+      "value": 1000.02,
       "market_cap": "1.141B"
     },
     {
@@ -86,8 +86,8 @@
       "price": 63.2,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 100.0,
-      "value": 6550.0,
+      "volume": 442.0,
+      "value": 27109.33,
       "market_cap": "1.722B"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 999.0,
-      "value": 25374.6,
+      "volume": 435.0,
+      "value": 10844.55,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 56.9,
       "change": -0.33,
       "change_pct": -0.58,
-      "volume": 2210.0,
-      "value": 124814.0,
+      "volume": 2336.0,
+      "value": 129971.93,
       "market_cap": "5.202B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 34.65,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 904.0,
-      "value": 30962.0,
+      "volume": 50.0,
+      "value": 1732.5,
       "market_cap": "3.812B"
     },
     {
@@ -163,8 +163,8 @@
       "price": 67.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 702.0,
-      "value": 45805.5,
+      "volume": 454.0,
+      "value": 29510.0,
       "market_cap": "10.720B"
     },
     {
@@ -174,20 +174,20 @@
       "price": 38.55,
       "change": -0.45,
       "change_pct": -1.15,
-      "volume": 33.0,
-      "value": 1287.0,
+      "volume": 467.0,
+      "value": 18213.0,
       "market_cap": "1.041B"
     },
     {
       "symbol": "TBL",
       "name": "T BANK LTD.",
       "pe_ratio": 10.48,
-      "price": 27.03,
-      "change": 0.03,
-      "change_pct": 0.11,
-      "volume": 532.0,
-      "value": 14694.9,
-      "market_cap": "2.827B"
+      "price": 27.04,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 7009.0,
+      "value": 189523.36,
+      "market_cap": "2.828B"
     }
   ]
 }
