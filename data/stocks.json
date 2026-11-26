@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T19:50:58.729202+00:00",
+  "updated_at": "2026-11-26T19:28:26.191916+00:00",
   "bsi": 3.0,
   "stocks": [
     {
@@ -9,8 +9,8 @@
       "price": 11.2,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 100.0,
-      "value": 1120.0,
+      "volume": 96.0,
+      "value": 1075.2,
       "market_cap": "235.203M"
     },
     {
@@ -42,20 +42,20 @@
       "price": 54.7,
       "change": 0.13,
       "change_pct": 0.24,
-      "volume": 500.0,
-      "value": 27350.0,
+      "volume": 1891.0,
+      "value": 103659.22,
       "market_cap": "3.282B"
     },
     {
       "symbol": "BNBL",
       "name": "BHUTAN NATIONAL BANK LTD.",
-      "pe_ratio": 30.67,
-      "price": 24.84,
-      "change": -0.07,
-      "change_pct": -0.28,
-      "volume": 53263.0,
-      "value": 1313872.88,
-      "market_cap": "12.127B"
+      "pe_ratio": 30.31,
+      "price": 24.55,
+      "change": 0.03,
+      "change_pct": 0.12,
+      "volume": 28500.0,
+      "value": 700047.69,
+      "market_cap": "11.986B"
     },
     {
       "symbol": "BPCL",
@@ -75,20 +75,20 @@
       "price": 550.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 220.0,
-      "value": 121000.0,
+      "volume": 8.0,
+      "value": 4400.0,
       "market_cap": "1.152B"
     },
     {
       "symbol": "DFAL",
       "name": "DRUK FERRO ALLOYS LIMITED",
-      "pe_ratio": 56.93,
-      "price": 54.65,
-      "change": -8.55,
-      "change_pct": -13.53,
-      "volume": 1118.0,
-      "value": 62301.35,
-      "market_cap": "1.489B"
+      "pe_ratio": 55.95,
+      "price": 53.71,
+      "change": -0.94,
+      "change_pct": -1.72,
+      "volume": 1239.0,
+      "value": 65688.24,
+      "market_cap": "1.463B"
     },
     {
       "symbol": "DPL",
@@ -97,8 +97,8 @@
       "price": 11.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 52.0,
-      "value": 572.0,
+      "volume": 330.0,
+      "value": 3085.5,
       "market_cap": "167.996M"
     },
     {
@@ -108,8 +108,8 @@
       "price": 24.91,
       "change": 0.03,
       "change_pct": 0.12,
-      "volume": 3417.0,
-      "value": 83061.57,
+      "volume": 6310.0,
+      "value": 155296.11,
       "market_cap": "4.883B"
     },
     {
@@ -119,8 +119,8 @@
       "price": 50.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 15003.0,
-      "value": 750150.0,
+      "volume": 134.0,
+      "value": 6629.43,
       "market_cap": "4.571B"
     },
     {
@@ -130,8 +130,8 @@
       "price": 34.65,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 434.0,
-      "value": 14349.85,
+      "volume": 465.0,
+      "value": 15179.34,
       "market_cap": "3.812B"
     },
     {
@@ -152,8 +152,8 @@
       "price": 24.49,
       "change": -0.51,
       "change_pct": -2.04,
-      "volume": 6.0,
-      "value": 146.94,
+      "volume": 100.0,
+      "value": 2449.0,
       "market_cap": "1.465B"
     },
     {
@@ -163,8 +163,173 @@
       "price": 67.0,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1827.0,
-      "value": 117293.4,
+      "volume": 213.0,
+      "value": 13774.0,
+      "market_cap": "10.720B"
+    },
+    {
+      "symbol": "BBPL",
+      "name": "BHUTAN BOARD PRODUCTS LTD.",
+      "pe_ratio": "N/A",
+      "price": 11.2,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 96.0,
+      "value": 1075.2,
+      "market_cap": "235.203M"
+    },
+    {
+      "symbol": "BCCL",
+      "name": "BHUTAN CARBIDE & CHEMICALS LTD.",
+      "pe_ratio": 146.91,
+      "price": 119.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 262.0,
+      "value": 35501.0,
+      "market_cap": "1.190B"
+    },
+    {
+      "symbol": "BFAL",
+      "name": "BHUTAN FERRO ALLOYS LTD.",
+      "pe_ratio": "N/A",
+      "price": 94.72,
+      "change": -3.37,
+      "change_pct": -3.44,
+      "volume": 9.0,
+      "value": 1015.2,
+      "market_cap": "1.421B"
+    },
+    {
+      "symbol": "BIL",
+      "name": "BHUTAN INSURANCE LTD.",
+      "pe_ratio": "N/A",
+      "price": 54.7,
+      "change": 0.13,
+      "change_pct": 0.24,
+      "volume": 1891.0,
+      "value": 103659.22,
+      "market_cap": "3.282B"
+    },
+    {
+      "symbol": "BNBL",
+      "name": "BHUTAN NATIONAL BANK LTD.",
+      "pe_ratio": 30.31,
+      "price": 24.55,
+      "change": 0.03,
+      "change_pct": 0.12,
+      "volume": 28500.0,
+      "value": 700047.69,
+      "market_cap": "11.986B"
+    },
+    {
+      "symbol": "BPCL",
+      "name": "BHUTAN POLYMERS COMPANY LTD.",
+      "pe_ratio": 15.21,
+      "price": 40.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 10.0,
+      "value": 400.0,
+      "market_cap": "99.734M"
+    },
+    {
+      "symbol": "BTCL",
+      "name": "BHUTAN TOURISM CORPORATION LTD.",
+      "pe_ratio": 34.79,
+      "price": 550.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 8.0,
+      "value": 4400.0,
+      "market_cap": "1.152B"
+    },
+    {
+      "symbol": "DFAL",
+      "name": "DRUK FERRO ALLOYS LIMITED",
+      "pe_ratio": 55.95,
+      "price": 53.71,
+      "change": -0.94,
+      "change_pct": -1.72,
+      "volume": 1239.0,
+      "value": 65688.24,
+      "market_cap": "1.463B"
+    },
+    {
+      "symbol": "DPL",
+      "name": "DUNGSAM POLYMERS LIMITED",
+      "pe_ratio": 17.46,
+      "price": 11.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 330.0,
+      "value": 3085.5,
+      "market_cap": "167.996M"
+    },
+    {
+      "symbol": "DPNB",
+      "name": "DRUK PNB BANK LTD.",
+      "pe_ratio": 27.08,
+      "price": 24.91,
+      "change": 0.03,
+      "change_pct": 0.12,
+      "volume": 6310.0,
+      "value": 155296.11,
+      "market_cap": "4.883B"
+    },
+    {
+      "symbol": "DWAL",
+      "name": "DRUK WANG ALLOYS LTD.",
+      "pe_ratio": 14.88,
+      "price": 50.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 134.0,
+      "value": 6629.43,
+      "market_cap": "4.571B"
+    },
+    {
+      "symbol": "GICB",
+      "name": "GIC BHUTAN REINSURANCE CO. LTD.",
+      "pe_ratio": 10.31,
+      "price": 34.65,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 465.0,
+      "value": 15179.34,
+      "market_cap": "3.812B"
+    },
+    {
+      "symbol": "KCL",
+      "name": "KUENSEL CORPORATION LTD.",
+      "pe_ratio": 26.56,
+      "price": 25.5,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 10.0,
+      "value": 255.0,
+      "market_cap": "127.500M"
+    },
+    {
+      "symbol": "PCAL",
+      "name": "PENDEN CEMENT AUTHORITY LTD.",
+      "pe_ratio": 81.63,
+      "price": 24.49,
+      "change": -0.51,
+      "change_pct": -2.04,
+      "volume": 100.0,
+      "value": 2449.0,
+      "market_cap": "1.465B"
+    },
+    {
+      "symbol": "RICB",
+      "name": "ROYAL INSURANCE CORPORATION OF BHUTAN LTD.",
+      "pe_ratio": 38.95,
+      "price": 67.0,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 213.0,
+      "value": 13774.0,
       "market_cap": "10.720B"
     },
     {
@@ -174,8 +339,8 @@
       "price": 39.2,
       "change": 0.65,
       "change_pct": 1.69,
-      "volume": 283.0,
-      "value": 11093.6,
+      "volume": 165.0,
+      "value": 6454.8,
       "market_cap": "1.058B"
     },
     {
@@ -185,8 +350,8 @@
       "price": 26.22,
       "change": 0.22,
       "change_pct": 0.85,
-      "volume": 10363.0,
-      "value": 270267.04,
+      "volume": 607.0,
+      "value": 17178.1,
       "market_cap": "2.742B"
     }
   ]
